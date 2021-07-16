@@ -100,26 +100,30 @@ The Zen of Python
 
 A joke by Tim Peters from 1999
 
-  |  Beautiful is better than ugly.
-  |  Explicit is better than implicit.
-  |  Simple is better than complex.
-  |  Complex is better than complicated.
-  |  Flat is better than nested.
-  |  Sparse is better than dense.
-  |  Readability counts.
-  |  Special cases aren't special enough to break the rules.
-  |  Although practicality beats purity.
-  |  Errors should never pass silently.
-  |  Unless explicitly silenced.
-  |  In the face of ambiguity, refuse the temptation to guess.
-  |  There should be one-- and preferably only one --obvious way to do it.
-  |  Although that way may not be obvious at first unless you're Dutch.
-  |  Now is better than never.
-  |  Although never is often better than *right* now.
-  |  If the implementation is hard to explain, it's a bad idea.
-  |  If the implementation is easy to explain, it may be a good idea.
-  |  Namespaces are one honking great idea -- let's do more of those!
+.. code:: Python
 
+    >>> import this
+    The Zen of Python, by Tim Peters
+
+    Beautiful is better than ugly.
+    Explicit is better than implicit.
+    Simple is better than complex.
+    Complex is better than complicated.
+    Flat is better than nested.
+    Sparse is better than dense.
+    Readability counts.
+    Special cases aren't special enough to break the rules.
+    Although practicality beats purity.
+    Errors should never pass silently.
+    Unless explicitly silenced.
+    In the face of ambiguity, refuse the temptation to guess.
+    There should be one-- and preferably only one --obvious way to do it.
+    Although that way may not be obvious at first unless you're Dutch.
+    Now is better than never.
+    Although never is often better than *right* now.
+    If the implementation is hard to explain, it's a bad idea.
+    If the implementation is easy to explain, it may be a good idea.
+    Namespaces are one honking great idea -- let's do more of those!
 
 
 Why I like Ruby
@@ -261,7 +265,7 @@ What is a symbol?
 
 More-or-less, a constant whose value is itself.
 
-.. Ruby::
+.. code:: Ruby::
 
   :symbol
 
@@ -326,7 +330,7 @@ That doesn't mean one should go wild with this - it can still be a practical
 problem - but Ruby has definitely thought more about what should be possible
 to do cleanly here.
 
-Meanwhile, `The Ruby Styleguide` says:
+Meanwhile, `The Ruby Style Guide` says:
 
     **No Needless Metaprogramming**
 
@@ -401,10 +405,10 @@ uses blocks leads to a different sort of code.
 
 THINK ABOUT THIS
 
-DSLs
-----
+Bare callables
+--------------
 
-You'll sometimes
+(IS THERE A PROPER NAME FOR THIS?)
 
 In Python:
 
@@ -437,15 +441,15 @@ will call the method of that name (if there is one). Of course, because Ruby
 allows a value and a method to have the same name, it does have to do a little
 guesswork in some contexts to decide which is needed.
 
-Omitting ``()``
----------------
+Omitting ``(`` and ``)``
+------------------------
 
 On the other hand, because (IS THIS A BECAUSE?) Ruby knows that a method is
 not a value, it is free to treat it differently. And that means, in partcular,
 that the ``()`` in a method call are optional.
 
 (There are stylistic guidelines, of course - specifically, see `The Ruby
-Styleguide`_ sectin `DSL Method Calls`_)
+Style Guide`_ sectin `DSL Method Calls`_)
 
 So instead of:
 
@@ -461,7 +465,7 @@ it's quite possible (and often colloquial) to do:
 
 It is worth saying that this can often be *much more readable.*
 
-Sort of DSLs
+Sort-of DSLs
 ------------
 
 A DSL is a Domain Specific Language.
@@ -553,7 +557,7 @@ Lisp-1 versus Lisp-2
 ====================
 
 .. |lisp1| replace:: Lisp\ :sub:`1`
-.. |lisp1| replace:: Lisp\ :sub:`2`
+.. |lisp2| replace:: Lisp\ :sub:`2`
 
 * In the threads at https://bugs.ruby-lang.org/issues/15799, an specifically
   at https://bugs.ruby-lang.org/issues/15799#note-29, Matz
@@ -612,7 +616,7 @@ Possibly useful links
 
 * `About Ruby`_ at https://www.ruby-lang.org/
 * `Why did Ruby creator chose to use the concept of Symbols?`_
-* `Ruby's lisp features`_ - Matz explaining why Ruby has lisp features (2006):
+* Ruby's `lisp features`_ - Matz explaining why Ruby has lisp features (2006):
 
       Ruby is a language designed in the following steps:
 
@@ -648,10 +652,10 @@ Possibly useful links
 .. _`Why did Ruby creator chose to use the concept of Symbols?`:
    https://softwareengineering.stackexchange.com/questions/328029/
    why-did-ruby-creator-chose-to-use-the-concept-of-symbols
-.. _`Ruby's lisp features`_
+.. _`lisp features`:
    http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/179642
 .. _`23 years of Ruby`: https://changelog.com/podcast/202
-.. _My own `An amble through some of Python's history`: https://github.com/tibs/python-history
+.. _`An amble through some of Python's history`: https://github.com/tibs/python-history
 
 .. _`The Ruby Style Guide`: https://rubystyle.guide/
 .. _`DSL Method Calls`: https://rubystyle.guide/#no-dsl-decorating
