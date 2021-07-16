@@ -10,6 +10,10 @@ Why I like Python, and quite like Ruby
     a discussion of some of the things that also make me like Ruby, with
     comparison between the two languages.
 
+.. EITHER remove the contents before finalising this,
+.. OR limit their depth to the main headings.
+.. contents::
+
 Why I like Python
 =================
 
