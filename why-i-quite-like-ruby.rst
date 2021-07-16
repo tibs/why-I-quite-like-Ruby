@@ -538,6 +538,12 @@ So where next?
 ==============
 
 My heart is with Python, and I'm currently paid to write in Ruby,
+so what language should I think about next?
+
+Well, for various reasons (and despite some residual prejudice I have left
+over from the 1980s), it looks as if the obvious answer is Common Lisp.
+
+(PERHAPS LEAVE IT AT THAT, BUT MAYBE GIVE A LITTLE MORE INFORMATION!)
 
 =======
 Addenda
