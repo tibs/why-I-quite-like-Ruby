@@ -14,7 +14,7 @@ The article
 
 The material of the talk is also available as an article.
 
-The source for the article are in `<why-i-quite-like-ruby.rst>_`
+The source for the article are in `<why-i-quite-like-ruby.rst>`_
 
 (Note that github will present the ``.rst`` files in rendered form as HTML,
 albeit using their own styling (which makes notes a bit odd). If you want
@@ -22,7 +22,7 @@ to see the original reStructuredText source, you have to click on the "Raw"
 link at the top of the file's page.)
 
 For convenience, there will also be a PDF rendering of the article,
-`<why-i-quite-like-ruby.pdf>_`
+`<why-i-quite-like-ruby.pdf>`_
 
 The slides
 ~~~~~~~~~~
