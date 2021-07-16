@@ -1,27 +1,42 @@
-==========================
-Contract testing and Pact_
-==========================
+======================================
+Why I like Python, and quite like Ruby
+======================================
 
 Written as a talk for CamPUG_
 
 History
 ~~~~~~~
 
-The talk was (will be) given at CamPUG_ on Tuesday 12th January 2021.
+The talk was (will be) given at CamPUG_ on Tuesday 2nd August 2021.
 
-The slides
-~~~~~~~~~~
-The slides are written using reStructuredText_, and thus intended to be
-readable as plain text.
+The article
+~~~~~~~~~~~
 
-The sources for the slides are in `<pact-slides.rst>`_.
+The material of the talk is also available as an article.
+
+The source for the article are in `<why-i-quite-like-ruby.rst>_`
 
 (Note that github will present the ``.rst`` files in rendered form as HTML,
 albeit using their own styling (which makes notes a bit odd). If you want
 to see the original reStructuredText source, you have to click on the "Raw"
 link at the top of the file's page.)
 
-The 16x9 aspect ratio slides are `<pact-slides-16x9.pdf>`_ and are stored here
+For convenience, there will also be a PDF rendering of the article,
+`<why-i-quite-like-ruby.pdf>_`
+
+The slides
+~~~~~~~~~~
+The slides are written using reStructuredText_, and thus intended to be
+readable as plain text.
+
+The sources for the slides are in `<ruby-slides.rst>`_.
+
+(Note that github will present the ``.rst`` files in rendered form as HTML,
+albeit using their own styling (which makes notes a bit odd). If you want
+to see the original reStructuredText source, you have to click on the "Raw"
+link at the top of the file's page.)
+
+The 16x9 aspect ratio slides are `<ruby-slides-16x9.pdf>`_ and are stored here
 for convenience. The 4x3 slides aren't provided because I'd need to do more
 work to make them well-formatted, which doesn't seem worth doing when I'm not
 going to be presenting in a physical venue.
@@ -31,10 +46,12 @@ their timestamps.
 
 Making the PDF files
 ~~~~~~~~~~~~~~~~~~~~
-For convenience, you can use the Makefile to create the PDF slides.
+For convenience, you can use the Makefile to create the PDF files.
 For instance::
 
-  $ make slides
+  $ make pdf
+
+to make them all.
 
 For what the Makefile can do, use::
 
@@ -49,36 +66,11 @@ rst2pdf_ and its dependencies to do the actual work.
 You will also need an appropriate ``make`` program if you want to use the
 Makefile.
 
-The examples
-~~~~~~~~~~~~
-
-The examples in the slides are all in this repository, in the ``examples``
-directory.
-
-They all use bottle_, requests_, pytest_, and pact-python_. The appropriate
-dependencies are specified in the top-level ``pyproject.toml``, so (for
-instance) doing ``poetry install`` and ``poetry shell`` should get you ready
-to run them.
-
-* ``server1`` and ``client1`` have the basic "buttering" endpoint.
-* ``server2`` and ``client2`` provide idempotent buttering as well.
-* ``server3`` and ``client3`` also provide butter information.
-
-Each directory contains a set of tests, as ``<name>_tests.py_``, and the
-client directories also have pact tests, as ``<name>_contract_tests.py``.
-
 .. _CamPUG: https://www.meetup.com/CamPUG/
 .. _pandoc: https://pandoc.org/
 .. _docutils: http://docutils.sourceforge.net/
 .. _reStructuredText: http://docutils.sourceforge.net/rst.html
 .. _TeX: https://www.ctan.org/starter
-
-.. _pact: https://docs.pact.io/_
-
-.. _bottle: https://bottlepy.org/docs/dev/
-.. _requests: https://requests.readthedocs.io/
-.. _pytest: https://docs.pytest.org/
-.. _pact-python: https://github.com/pact-foundation/pact-python
 
 --------
 
