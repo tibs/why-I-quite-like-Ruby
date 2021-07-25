@@ -49,7 +49,14 @@ have thought Python was too much work to embed.
 Significant indentation, and the aim to be readable
 ---------------------------------------------------
 
-"Runnable pseudocode**
+"Runnable pseudocode"
+
+.. code:: Python
+
+   if something:
+      do_other_thing()
+
+(and I like the colons)
 
 Multi-paradigm
 --------------
@@ -67,6 +74,10 @@ High level datastructures built in
 
 Dictionaries all the way down
 -----------------------------
+
+OK, that's not strictly true, but dictionaries are definitely a fundamental
+concept in Python, and many things either used to be dictionaries or act
+almost as if they are still dictionaries.
 
 
 Introspection and self-modification
@@ -86,6 +97,8 @@ Batteries included
 ------------------
 
 Really - compare with the other languages I was used to.
+
+(although it should be said that this is true for Ruby as well)
 
 The community and a gentle sense of humour
 ------------------------------------------
@@ -129,9 +142,31 @@ A joke by Tim Peters from 1999
     If the implementation is easy to explain, it may be a good idea.
     Namespaces are one honking great idea -- let's do more of those!
 
+Too much other stuff to go into
+-------------------------------
+
+Like ``f`` strings, and ``__repr__`` versus ``__str__``, and numbers with
+underlines in them (makes my life a lot easier), and ``mypy`` typing, and all
+sorts of other things.
+
+But I think they're smaller things than the above, in some
+difficult-to-measure sense.
+
 
 Why I like Ruby
 ===============
+
+.. note:: At the first reference to `The Ruby Style Guide`_, note that I shall
+   be referring to it frequently / more than once (as turns out to be appropriate)
+
+Not everything I say may be true
+--------------------------------
+
+Since I'm not going to give a Ruby tutorial, there may be things I omit
+entirely (for instance, the ``{ ...  }`` notation for blocks) which make some
+of the things I say slightly untrue.
+
+IS THIS SECTION NEEDED?
 
 Why did I learn Ruby?
 ---------------------
@@ -151,24 +186,8 @@ Also, remember I've only been using Ruby for a short while, and have not seen
 its history "in action", whereas for Python I remember the evolution of the
 language and its <surroundings> (??FIND A BETTER WORD??)
 
-Ruby's inspirations
--------------------
-
-Smalltalk, Lisp, Perl, etc.
-
-*Not* Python - Matz knew Python well so knew what he didn't like.
-
-
-Why do I say I only "quite" like Ruby?
---------------------------------------
-
-Because I don't really like some of the stylistic choices - it errs a little
-too much on the magic side for me (this is *very* much a matter of choice!).
-
-Note: this is meant to be a talk about the things I like in both languages, so
-don't expect me to look for things that I'm not keen on or think could be done
-better. There is no perfect programming language, and moreover different
-programming languages suit different programmers.
+Finally, like Python, Ruby is solidly built on well-proven ideas from programming
+history. Just not the same ideas.
 
 Matz
 ----
@@ -181,14 +200,50 @@ The inventor of Ruby.
 
 "Matz is nice so we are nice"
 
+Ruby's inspirations
+-------------------
+
+Smalltalk, Lisp, Perl, etc.
+
+*Not* Python - Matz knew Python well so knew what he didn't like.
+
+Why do I say I only "quite" like Ruby?
+--------------------------------------
+
+Because I don't really like some of the stylistic choices - it errs a little
+too much on the magic side for me (this is *very* much a matter of choice!).
+
+Note: this is meant to be a talk about the things I like in both languages, so
+don't expect me to look for things that I'm not keen on or think could be done
+better. There is no perfect programming language, and moreover different
+programming languages suit different programmers.
+
 Readability / writability
 -------------------------
 
 Python strongly errs toward being readable, even if that makes it slightly
 harder to write.
 
-Ruby wants to make programming a joy for programmers, so it wants code that is
-easy/fun to write, as well as easy to read.
+Ruby wants to make programming "a joy for programmers", so it wants code that
+is easy/fun to write, as well as easy to read.
+
+Synonyms and extra methods
+--------------------------
+Ruby is much more likely to add synonyms for things - much less interested in
+"only one way". Instead, wants to give the predictable way (and thus easier
+to write). So as well as ``2.times`` you can also do ``1.time`` - but it's not
+being clever, it's just defined both of those methods for any number.
+
+It's also alway worth checking if there's a specific method for a job - for
+instance the `The Ruby Style Guide` recommends using:
+
+.. code:: Ruby
+
+  hash.each_key do |k|
+     ...
+  end
+
+rather than ``hash.keys.each`` (and similarly for ``each_value``)
 
 Begin and end and things
 ------------------------
@@ -208,13 +263,15 @@ In particular, the *end* of a block is always indicated by ``end``:
 
    if choice
      ...
-   elsif
+   elsif some_other_choice
      ...
    end
 
 and so on.
 
 (and yes, ``elsif`` takes a bit of getting used to for a Python programmer)
+
+Also, indentation in Ruby is conventionally two spaces.
 
 Line continuation
 -----------------
@@ -226,13 +283,104 @@ Line continuation
 
 I don't think I need to say any more...
 
-Definitely Object Oriented
---------------------------
+Strongly object oriented, but easy to use...
+--------------------------------------------
 
-Although does a lot to make this less painful:
+.. slide will be delibarately left blank
 
-* "bare" methods (is that even a term)
-* value access - see below
+What do we mean by "Object Oriented"?
+-------------------------------------
+
+1. *Encapsulation* - the ability to syntactically hide the implementation of a
+   type. E.g. in C or Pascal you always know whether something is a struct or
+   an array, but in CLU and Java you can hide the difference.
+2. *Protection* - the inability of the client of a type to detect its
+   implementation. This guarantees that a behavior-preserving change to an
+   implementation will not break its clients, and also makes sure that things
+   like passwords don't leak out.
+3. *Ad hoc polymorphism* - functions and data structures with parameters that
+   can take on values of many different types.
+4. *Parametric polymorphism* - functions and data structures that parameterize
+   over arbitrary values (e.g. list of anything). ML and Lisp both have this.
+   Java doesn't quite because of its non-Object types.
+5. *Everything is an object* - all values are objects. True in Smalltalk (?)
+   but not in Java (because of int and friends).
+6. *All you can do is send a message* (AYCDISAM) = Actors model - there is no
+   direct manipulation of objects, only communication with (or invocation of)
+   them. The presence of fields in Java violates this.
+7. *Specification inheritance* = subtyping - there are distinct types known to
+   the language with the property that a value of one type is as good as a
+   value of another for the purposes of type correctness. (E.g. Java interface
+   inheritance.)
+8. *Implementation inheritance/reuse* - having written one pile of code, a
+   similar pile (e.g. a superset) can be generated in a controlled manner,
+   i.e. the code doesn't have to be copied and edited. A limited and peculiar
+   kind of abstraction. (E.g. Java class inheritance.)
+9. *Sum-of-product-of-function pattern* - objects are (in effect) restricted
+   to be functions that take as first argument a distinguished method key
+   argument that is drawn from a finite set of simple names.
+
+He has Java as {1,2,3,7,8,9}, and Lisp as {3,4,5,7}
+
+Simula-67 was {1,3,7,9} and he says "many people take this as a definition of OO".
+
+By my (quick and maybe wrong) reckoning,
+Python is {3,4,5,7,8,9}
+while Ruby is {3,4,5,6,7,8,9} - readers may be inerested in working this out
+for themselves.
+
+Incidentally, while never formally part of the definition of OO, many people
+(particularly in the early years) would also include Garbage Collection.
+
+The wikipedia page on `Object-oriented programming`_ regards Ruby as a "pure"
+OO language, whereas Python is designed mainly as OO, with some procedural
+elements.
+
+What do we mean by "Object Oriented"? (slide version)
+-----------------------------------------------------
+
+There's a nice post from 2001 by `Jonathan Rees on the meaning of
+Object-Oriented`_, which says that people select the items they care about
+from the following list:
+
+1. *Encapsulation*
+2. *Protection*
+3. *Ad hoc polymorphism*
+4. *Parametric polymorphism*
+5. *Everything is an object*
+6. *All you can do is send a message* (AYCDISAM)
+7. *Specification inheritance*
+8. *Implementation inheritance/reuse*
+9. *Sum-of-product-of-function pattern*
+
+So he has Java as {1,2,3,7,8,9}, and Lisp as {3,4,5,7}
+
+Simula-67 was {1,3,7,9} and he says "many people take this as a definition of OO"
+
+By my (quick and maybe wrong) reckoning,
+Python is {3,4,5,7,8,9}
+while Ruby is {3,4,5,6,7,8,9} - readers may be inerested in working this out
+for themselves.
+
+Strongly object oriented, but easy to use...
+--------------------------------------------
+
+.. Slides only
+
+I shall explain over the next few slides
+
+
+No ``self``
+-----------
+
+Like many mainstream OO languages, it is not necessary to say ``self`` in
+almost all cases.
+
+`The Ruby Style Guide`_ says "Avoid ``self`` where not required."
+
+Use of ``@`` to indicate equivalent of ``self.`` for values *inside* methods
+of the same class. But seems to be only when necessary, otherwise just use the
+accessor methods.
 
 Object values
 -------------
@@ -245,47 +393,163 @@ Ruby's ``attr_reader`` / ``attr_writer`` / etc.
 
 ``def xxx=`` for setting - I like that
 
-No ``self``
------------
+* Python: assume an ``a.x`` is a value, but can add plumbing to make it be a
+  method call.
 
-Like many mainstream OO languages, it is not necessary to say ``this`` in
-almost all cases.
+* Ruby: ``a.x`` is always a setter/getter method call. *But* there's syntax to
+  set that up with one line
 
-Use of ``@`` to indicate equivalent of ``self.`` for values *inside* methods
-of the same class. But seems to be only when necessary, otherwise just use the
-accessor methods.
+Readonly values
+---------------
 
-Method naming conventions from lisp
------------------------------------
+.. code:: Ruby
 
-Although it's not 100% followed, use of ``method?`` and ``method!`` to mean
-"is it a" and "do it regardless" are clearly borrowed from the lisp world, and
-are rather nice.
+    irb(main):002:1* class Rectangle
+    irb(main):003:1*   attr_reader :width, :height
+    irb(main):004:2*   def initialize(width, height)
+    irb(main):005:2*     @width = width
+    irb(main):006:2*     @height = height
+    irb(main):007:1*   end
+    irb(main):008:0> end
+    => :initialize
+    irb(main):009:0> r = Rectangle.new(1,2)
+    => #<Rectangle:0x00007fe9bc9520d8 @height=2, @width=1>
+    irb(main):010:0> r.width = 3
+    (irb):11:in `<main>': undefined method `width=' for #<Rectangle:0x00007fe9bc9520d8 @width=1, @height=2> (NoMethodError)
+    Did you mean?  width
+
+To do this in Python, we'd need to use ``@property``.
+
+Writable values
+---------------
+
+.. code:: Ruby
+
+    irb(main):030:1* class MutableRectangle
+    irb(main):031:1*   attr_accessor :width, :height
+    irb(main):032:2*   def initialize(width, height)
+    irb(main):033:2*     @width = width
+    irb(main):034:2*     @height = height
+    irb(main):035:1*   end
+    irb(main):036:0> end
+    => :initialize
+    irb(main):037:0> m = MutableRectangle.new(1,2)
+    => #<MutableRectangle:0x00007fe9c0041e18 @height=2, @width=1>
+    irb(main):038:0> m.width = 3
+    => 3
+    irb(main):039:0> m.width
+    => 3
+
+To do this in Python, we'd simply set the values as ``self.width`` and
+``self.height`` in our ``__init__`` method.
+
+Doing it "by hand"
+------------------
+
+.. code:: Ruby
+
+    irb(main):044:1* class Example
+    irb(main):045:2*   def value=(v)
+    irb(main):046:2*     @value = v
+    irb(main):047:1*   end
+    irb(main):048:2*   def value
+    irb(main):049:2*     @value
+    irb(main):050:1*   end
+    irb(main):051:0> end
+    => :value
+    irb(main):052:0> e = Example.new
+    => #<Example:0x00007fe9bc9d4b50>
+    irb(main):053:0> e.value
+    => nil
+    irb(main):054:0> e.value = 3
+    => 3
+    irb(main):055:0> e.value
+    => 3
+
+Obviously this simple case doesn't need explicit methods (we should use the
+``attr`` variants instead, as above).
+
+In Python, we would again use ``@property``.
+
+``?`` and ``!`` at the end of method names
+------------------------------------------
+
+`The Ruby Style Guide`_ refers to these as "Predicate Methods Suffix" and
+"Dangerous Methods Suffix". "Surprising" might also be a good term instead of
+"Dangerous".
+
+Methods ending with ``?`` should return a boolean, for instance ``empty?``
+
+Methods ending with ``!`` should do something permanent or potentially
+dangerous, and should generally be paired with an equivalent method that
+doesn't end with ``!``.
+
+For instance:
+
+* ``Enumerable#sort`` returns a new sorted object
+* ``Enumerable#sort!`` sorts in place, mutating the object
+
+and, in Rails:
+
+* ``ActiveRecord::Base#save`` returns `false` if saving failed
+  easier to check for
+* ``ActiveRecord::Base#save!`` raises an exception
+
+The second form suggests that we don't expect the "save" to fail.
+
+The style guide also suggests that it's generally a good idea to implement the
+"safe" method (``sort``) as a wrapper around the "dangerous" or "surprising"
+method (so ``sort`` should presumably take a copy and then ``sort!`` it).
+
+I rather like these - I think it's a fairly natural usage, and very readable.
+
+The use of ``?`` and ``!`` at the end of a method name may be taken from
+Scheme, which uses ``?`` for predicates (``even?``) and ``!`` for mutating
+functions ()``set!``). Common Lisp, in contrast, uses a trailing ``p`` for
+predicates (so ``evenp``).
+
+We'll also see ``=`` at the end of method names in the section on object
+values and getters and setters.
 
 Symbols
 -------
 
 What is a symbol?
 
-More-or-less, a constant whose value is itself.
+According to `Programming Ruby`_
+
+  A Ruby symbol is an identifier corresponding to a string of characters,
+  often a name.
+
+Somewhat simplistically, it's a constant whose value is itself.
+
+For instance:
 
 .. code:: Ruby::
 
   :symbol
 
-Ruby uses this a lot, and is good at converting symbols to their string
+As you might expect, symbols are "interned" - that is, there is only a single
+copy of each symbol.
+
+Ruby uses symbols a lot, and is good at converting symbols to their string
 representation when necessary (``:symbol`` becomes ``symbol``)
 
-CHECK THIS SECTION carefully
-
-Why doesn't Python have symbols, if they're so usful?
+So why doesn't Python have symbols, if they're so useful?
 
 My suspicion is that they're a little bit hard to understand when you first
-come across them, and so that didn't fit the idea of simplicity that
+come across them (I know I found them a bit hard to distinguish from the
+concept of strings), and so that didn't fit the idea of simplicity that
 (especially early) Python was striving for.
 
 They're very much a part of lisps, though, so it was probably inevitable that
-Ruby would gain such a useful thing.
+Ruby would have such a useful thing.
+
+On the whole, I like having symbols available. In Python we have to use a
+string in many places where a symbol, and then worry about guaranteeing that
+it is the same string. Also, Python doesn't guarantee to intern all strings
+(although nowadays I believe most constant strings are likely to be interned
+in CPython).
 
 Messages from smalltalk
 -----------------------
@@ -299,10 +563,111 @@ In Ruby, the documentation would have it that:
 sends the ``thing`` message to the object ``obj``, which will respond
 appropriately if it knows that message (in the normal OO manner).
 
-Ruby is quite serious about this description, and to cope with unrecognised
-messages on can do things like:
+.. code:: Ruby
 
-<Give a good example - perhaps something from the Ruby koans?>
+   obj.send(:thing)
+
+effectively calls ``obj.thing``. But it can be used to call a ``private``
+method, if you know the method name.
+
+For instance, given:
+
+.. code:: Ruby
+
+   class Something
+     # ...
+   private
+     def reset
+       # ...
+     end
+   end
+
+it's not possible to do:
+
+  .. code:: Ruby
+
+     s = Something.new
+     s.reset
+
+(Ruby will tell you you're trying to call a private method), but it *is*
+possible to do:
+
+  .. code:: Ruby
+
+     s = Something.new
+     s.send(:reset)
+
+(Although see `The Ruby Style Guide`_ for some suggestions on why one might
+not do exactly that.)
+
+One can ask if an object understands a message:
+
+.. code:: Ruby
+
+   s.responds_to?(:reset)  # => false, because it's private
+   1.responds_to?(:times)  # => true
+
+It's also quite easy to catch messages as they "go past" and decide what to do
+with them, using ``method_missing`` method:
+
+.. code:: Ruby
+
+   class Example
+     def method_missing(name, *args, &block)
+       if name == :random
+         puts "4"
+       else
+         puts "#{name}"
+       end
+   end
+
+The ``method_missing`` method is documented as:
+
+  A callback invoked by the interpreter if ``respond_to?`` is called and does
+  not find a method.
+
+Given the above:
+
+.. code:: Ruby
+
+    irb(main):028:0> e = Example.new
+    => #<Example:0x00007f807c975dc0>
+    irb(main):029:0> e.random
+    4
+    => nil
+    irb(main):030:0> e.aha
+    aha
+    => nil
+    irb(main**:031:0> e.whatever
+    whatever
+    => nil
+
+**Note** I've been naughty with this class, because I didn't define a
+``respond_to_missing?`` method so that a caller could ask what messages the
+object *does* respond to. Because of that:
+
+.. code:: Ruby
+
+   e.respond_to?(:random)  => false
+
+which is misleading.
+
+I do rather like the message passing idea, and the underlying support for it
+(even if Ruby doesn't make one talk that way all the time (there's still
+"calling a method").
+
+I also rather like the ``responds_to?`` and ``method_missing`` mechanisms.
+
+**Note** I believe it *is* important to use a programming languages own terms
+for its concepts. In this case it shows up relative subtelties in the way the
+language is mean to work and be used. I've always had a particulare dislike
+for the sort of C or C++ programmer who insists on discussing Python method
+calling in C or C++ terms only, zeroing in on pointer management, and refusing
+to use Python's own terms, often citing "but that's what the low level
+implementation does" (perhaps true in CPython, perhaps not in other variants).
+There is normally a (good) reason for the terminology a programming language
+uses to talk about itself.
+
 
 Ruby and monkey patching
 ------------------------
@@ -362,6 +727,30 @@ Things to mention:
   getting used to - so programming Ruby like a Python programmer will *not*
   take advantage of this
 
+Probably *don't* mention:
+
+* Can pass the block as the last declared argument (``(..., &block)``) or can
+  pass it "outside" the argument list. In the latter case, there's a call to
+  see if the method was given a block argument or not.
+
+Nice example from `The Ruby Style Guide`_
+-----------------------------------------
+
+.. code:: Ruby
+
+    def with_io_error_handling
+      yield
+    rescue IOError
+      # handle IOError
+    end
+
+    with_io_error_handling { something_that_might_fail }
+
+This shows a nice use  of blocks to wrap code in much the same way as we would
+use a context manager (and ``with``) in Python.
+
+It also shows the ``begin ... rescue ... end`` mechanism that is equivalent to
+Python's ``try ... except``.
 
 Who needs a ``for`` loop?
 -------------------------
@@ -374,6 +763,7 @@ Closed and open intervals:
 * ``1...3`` == 1, 2, 3
 
 (or is it the other way round?)
+
 
 Lisp-1 or Lisp-2
 ----------------
@@ -512,6 +902,7 @@ Remember to mention the ability to do:
 
 which also makes things more readable.
 
+Also rather nice mocking constructs, and ``webmock`` is also nice.
 
 The community
 -------------
@@ -556,6 +947,36 @@ over from the 1980s), it looks as if the obvious answer is Common Lisp.
 =======
 Addenda
 =======
+
+Why the Lucky Stiff
+===================
+
+To a programmer of a certain age, Ruby's Why the Lucky Stiff was a very
+distinct presence on the scene. I'm not aware of anything quite like his work
+in any other programming language.
+
+The book "Why's (poignant) guide to Ruby" is available online at
+http://poignant.guide/,
+and there is an interesting documentary about the person and the book at
+https://www.youtube.com/watch?v=64anPPVUw5U.
+
+Packaging and using
+===================
+
+Packaging is *hard*, so I don't really want to get into it, not least because
+that's a whole other talk, and not one I want to write.
+
+rbenv and bundle (similar to pyenv and poetry/pipenv)
+
+But (from my experience) Ruby seems to have its act together a little better.
+
+Using (for instance)::
+
+  bundle exec rspec
+
+to run tests, instead of trying to start a new shell seems (at least at work)
+to be more normal.
+
 
 Lisp-1 versus Lisp-2
 ====================
@@ -619,6 +1040,7 @@ Possibly useful links
 =====================
 
 * `About Ruby`_ at https://www.ruby-lang.org/
+* `Programming Ruby`_ ("The Pick-axe Book", also available as a printed book)
 * `Why did Ruby creator chose to use the concept of Symbols?`_
 * Ruby's `lisp features`_ - Matz explaining why Ruby has lisp features (2006):
 
@@ -663,3 +1085,10 @@ Possibly useful links
 
 .. _`The Ruby Style Guide`: https://rubystyle.guide/
 .. _`DSL Method Calls`: https://rubystyle.guide/#no-dsl-decorating
+
+.. _`Jonathan Rees on the meaning of Object-Oriented`:
+   https://www.mumble.net/~jar/articles/oo.html
+
+.. _`Object-oriented programming`: https://en.wikipedia.org/wiki/Object-oriented_programming
+
+.. _`Programming Ruby`: https://ruby-doc.com/docs/ProgrammingRuby/
