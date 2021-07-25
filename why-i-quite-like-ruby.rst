@@ -192,11 +192,9 @@ history. Just not the same ideas.
 Matz
 ----
 
-Yukihiro Matsumoto
+Matz is Yukihiro Matsumoto, the creator of Ruby.
 
 https://en.wikipedia.org/wiki/Yukihiro_Matsumoto
-
-The inventor of Ruby.
 
 "Matz is nice so we are nice"
 
@@ -205,13 +203,43 @@ Ruby's inspirations
 
 Smalltalk, Lisp, Perl, etc.
 
-*Not* Python - Matz knew Python well so knew what he didn't like.
+*Not* Python.  Matz knew Python well (I remember seeing him on
+``comp.lang.python`` back in the day, and he obviously had a good knowledge of
+Python), so this is a conscious choice.
+
+Origins: Ruby's `lisp features`_
+--------------------------------
+
+In an email message back in 2006, Matz explained why Ruby has some `lisp
+features`_
+
+      Ruby is a language designed in the following steps:
+
+      * take a simple lisp language (like one prior to CL).
+      * remove macros, s-expression.
+      * add simple object system (much simpler than CLOS).
+      * add blocks, inspired by higher order functions.
+      * add methods found in Smalltalk.
+      * add functionality found in Perl (in OO way).
+
+      So, Ruby was a Lisp originally, in theory.
+
+      Let's call it MatzLisp from now on. ;-)
+
+("CL" is Common Lisp, and "CLOS" is the Common Lisp Object System)
 
 Why do I say I only "quite" like Ruby?
 --------------------------------------
 
 Because I don't really like some of the stylistic choices - it errs a little
 too much on the magic side for me (this is *very* much a matter of choice!).
+
+But there's a lot of stuff I *do* like, and more importantly, to me, I love
+the fact that Ruby takes some very different approaches than Python, in some
+cases producing what feels like much the same result (for instance, how values
+are defined) and in some cases shows paths that Python could not take, but
+that are still valuable approaches to explore (blocks, optional ``()`` on
+calling methods, and so on).
 
 Note: this is meant to be a talk about the things I like in both languages, so
 don't expect me to look for things that I'm not keen on or think could be done
@@ -597,8 +625,9 @@ possible to do:
      s = Something.new
      s.send(:reset)
 
-(Although see `The Ruby Style Guide`_ for some suggestions on why one might
-not do exactly that.)
+(Although `The Ruby Style Guide`_ does suggest you should think carefully
+about whether ``public_send`` would be better, as it honours the ``private``
+visibility.)
 
 One can ask if an object understands a message:
 
@@ -657,6 +686,10 @@ I do rather like the message passing idea, and the underlying support for it
 "calling a method").
 
 I also rather like the ``responds_to?`` and ``method_missing`` mechanisms.
+
+Finally, I appreciate the fact that `The Ruby Style Guide`_ suggests not using
+any of this in most cases - it does, however, explain why, and suggest
+alternatives.
 
 **Note** I believe it *is* important to use a programming languages own terms
 for its concepts. In this case it shows up relative subtelties in the way the
@@ -1042,20 +1075,6 @@ Possibly useful links
 * `About Ruby`_ at https://www.ruby-lang.org/
 * `Programming Ruby`_ ("The Pick-axe Book", also available as a printed book)
 * `Why did Ruby creator chose to use the concept of Symbols?`_
-* Ruby's `lisp features`_ - Matz explaining why Ruby has lisp features (2006):
-
-      Ruby is a language designed in the following steps:
-
-      * take a simple lisp language (like one prior to CL).
-      * remove macros, s-expression.
-      * add simple object system (much simpler than CLOS).
-      * add blocks, inspired by higher order functions.
-      * add methods found in Smalltalk.
-      * add functionality found in Perl (in OO way).
-
-      So, Ruby was a Lisp originally, in theory.
-
-      Let's call it MatzLisp from now on. ;-)
 
 * `23 years of Ruby`_ (podcast interview with Matz from 2016, with a transcript)
 
