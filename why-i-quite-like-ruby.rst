@@ -49,14 +49,36 @@ have thought Python was too much work to embed.
 Significant indentation, and the aim to be readable
 ---------------------------------------------------
 
-"Runnable pseudocode"
-
 .. code:: Python
 
    if something:
       do_other_thing()
 
+I'd already seen the use of significant indentation in the occam programming
+language, some years before, although I'd never used that language.
+
+When writing pseudocode for myself, of course, I didn't see any need for
+``begin`` and ``end`` (or ``${`` and ``}``, or, most horrible of all ``{}``
+and ``}``), but naturally just indented the code and left it at that.
+
+So when I say Python, that aspect of it just seemed natural.
+
+Also the decision, in general, to be relatively unadventurous in syntax made
+it easy to read and easy to learn (remember Python was also a somewhat smaller
+language in the 1990s).
+
+As someone coined, Python is "runnable pseudocode".
+
 (and I like the colons)
+
+Of course, when I read further I discovered that Guido van Rossum had
+deliberately decided to emphasise *readability* as being valuable, even if
+that added a little more burden when writing code. The reasoning being that
+programs are communication, to other human beings as much as computers, and so
+we should do as much to make that communcation easy and pleasant as we can.
+
+And, of course, the origianl programmer in six months time may also be
+greatful for this approach!
 
 Multi-paradigm
 --------------
@@ -105,17 +127,39 @@ The community and a gentle sense of humour
 
 Not, by any means, unique to Python.
 
-The ``ni`` module (new import) in Python 1.3
+As one example, when a new (and more sophisitcated) form of ``import`` was
+being tried out (in Python 1.3), the command to enable it was ``import ni``.
+``ni`` obviously stands for "new import", but was also a reference to "*the
+Knights who say Ni*" from the film "Monty Python and the Holy Grail".
+
+There was also a long running joke about Guido's time machine, which enabled
+him to go back in time and implement a new language feature that people had
+just asked for (in real life, not realising that it had been there all along).
+
+See `An amble through some of Python's history`_ for some other examples.
 
 Docstrings - these came later
 -----------------------------
 
-Python 1.2, 1995, having been "play tested" before that.
+Docstrings were introduced in Python 1.2 in 1995.
+
+I remember they were first proposed (I think based on Emacs Lisp).
+
+One of the lovely things about Python is that it was possible to play test
+them very easily, by just putting a string in the appropriate place (a string
+by itself just "sits there", so that's OK), and then writing some Python code
+to introspect the relevant module, class or method, and retrieve the string.
+
+I personally much prefer this approach to that of the "magic comment",
+probably mostly because it feels natural that the docstring should be
+accessible via the AST (Abstract Syntax Tree, the parsed representation of the
+program).
 
 The Zen of Python
 -----------------
 
-A joke by Tim Peters from 1999
+"The Zen of Python" is a joke by Tim Peters from 1999. It has been
+incorporated into the Python library as an easter egg:
 
 .. code:: Python
 
@@ -141,6 +185,13 @@ A joke by Tim Peters from 1999
     If the implementation is hard to explain, it's a bad idea.
     If the implementation is easy to explain, it may be a good idea.
     Namespaces are one honking great idea -- let's do more of those!
+
+This is a good joke because it is also true (well, mostly).
+
+It can also be used as an interesting way to compare other programming
+languages to Python.
+
+(I am way too much amused by how the above gets syntax highlighted.)
 
 Too much other stuff to go into
 -------------------------------
