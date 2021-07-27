@@ -101,13 +101,51 @@ OK, that's not strictly true, but dictionaries are definitely a fundamental
 concept in Python, and many things either used to be dictionaries or act
 almost as if they are still dictionaries.
 
-
 Introspection and self-modification
 -----------------------------------
+
+.. This is actually the same as the next section, I think?
 
 "Exposing its innards"
 
 *Can* modify things doesn't mean *will* modify things
+
+Python is malleable
+-------------------
+
+Metaprogramming in Python was always easier than many other languages, and it
+has been improved and simplified over several decades, to make the common
+cases easier to do and (especially) easier to understand.
+
+I really love the fact that Python is so malleable, by using Python. I also
+love that, mostly, Python programmers *don't do this* - we're a relatively
+conservative lot.
+
+Values or methods?
+------------------
+
+I love the fact that you can start with a value in a method:
+
+.. code:: Python
+
+   class UsefulNumbers:
+        random = 4
+
+and later on realise that this actually needs to be a method, and change it
+without the user needing to change their own code:
+
+.. code:: Python
+
+   import random
+
+   class UsefulNumbers
+
+      @property
+      def random(self):
+         return random.random()
+
+I also love the fact that this is now much easier to do (using ``@property``)
+than it used to be in earlier versions of Python.
 
 "Safe and sane"
 ---------------
@@ -457,9 +495,36 @@ Python is {3,4,5,7,8,9}
 while Ruby is {3,4,5,6,7,8,9} - readers may be inerested in working this out
 for themselves.
 
+But still allowed to feel like a multi-paradigm language
+--------------------------------------------------------
+
+While everything is an object, and modules and classes are the only constructs
+to create objects, Ruby does actually allow you to write simple linear scripts
+(with no mention of ``module`` or ``class``, or even the need to define a
+method).
+
+And methods can (apparently) be declared at the top level.
+
+So this is a perfectly good Ruby program:
+
+.. code:: Ruby
+
+   puts "Hello"
+   puts "====="
+
+I like that Ruby goes out of its way to make this possible, because it makes
+life better for the programmer.
+
+(It's actually doing things with methods and classes and modules for you, but
+it's not making you do it yourself if you don't want to.**
+
+**Maybe look up what it's doing a bit more before the talk**
 
 No ``self``
 -----------
+
+This is for information, not because I'm keen on it. I *like* explicit
+``self``. But lots of people don't.
 
 Like many mainstream OO languages, it is not necessary to say ``self`` in
 almost all cases.
