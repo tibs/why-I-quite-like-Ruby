@@ -155,6 +155,20 @@ probably mostly because it feels natural that the docstring should be
 accessible via the AST (Abstract Syntax Tree, the parsed representation of the
 program).
 
+.. I'm not convinced this fits into this article
+..
+.. Gradual typing
+.. --------------
+..
+.. The work on ``mypy`` and optional static typing.
+..
+.. I like the fact that it is inline, and not consigned to other files (as, for
+.. instance, is the case with C++). The notation isn't perfect, but as with many
+.. things in Python, is a reasonable compromise between several conflicting
+.. factors.
+
+
+
 The Zen of Python
 -----------------
 
@@ -247,7 +261,7 @@ Matz is Yukihiro Matsumoto, the creator of Ruby.
 
 https://en.wikipedia.org/wiki/Yukihiro_Matsumoto
 
-"Matz is nice so we are nice"
+There is a saying in the Ruby community: "Matz is nice so we are nice"
 
 Ruby's inspirations
 -------------------
@@ -365,7 +379,9 @@ I don't think I need to say any more...
 Strongly object oriented, but easy to use...
 --------------------------------------------
 
-.. slide will be delibarately left blank
+.. slide might be delibarately left blank, or it might say:
+
+I shall explain over the next few slides
 
 What do we mean by "Object Oriented"?
 -------------------------------------
@@ -440,13 +456,6 @@ By my (quick and maybe wrong) reckoning,
 Python is {3,4,5,7,8,9}
 while Ruby is {3,4,5,6,7,8,9} - readers may be inerested in working this out
 for themselves.
-
-Strongly object oriented, but easy to use...
---------------------------------------------
-
-.. Slides only
-
-I shall explain over the next few slides
 
 
 No ``self``
@@ -793,29 +802,135 @@ Meanwhile, `The Ruby Style Guide` says:
 
     Do not mess around in core classes when writing libraries (do not monkey-patch them).
 
+Old-style monkey patching
+-------------------------
+
+(this and the following section borrow from https://6ftdan.com/allyourdev/2015/01/20/refinements-over-monkey-patching/)
+
+Very simple to do, quite nice to write, but rather too powerful for its own
+good.
+
+For instance, we can "open" the String class and add a useful (missing) method:
+
+.. code:: Ruby
+
+   class String
+     def prefix_with_hat
+       "^#{self}"
+     end
+   end
+
+and now ``'abcd'.prefix_with_hat`` will give us ``'^abcd'``.
+
+But imagine instead we decide to change an existing method:
+
+.. code:: Ruby
+
+   class String
+     def reverse
+       self.prefix_with_hat
+     end
+   end
+
+As expected, ``'abcd'.reverse`` now gives us ``'^abcd'`` as well. But *all*
+usages of the ``reverse`` method are affected, including those where we didn't
+intend the effect - we've replaced the original method.
+
+And yes, we could save the original definition of the method, and put it back
+again later (making sure we allow for exceptions and other unexpected flows of
+control), but that's all rather a pain.
+
+Refinements
+-----------
+
+Refinements_ give more control.
+
+We can instead refine the ``String`` class inside a module:
+
+  .. code:: Ruby
+
+     module HattyString
+       refine String do
+         def reverse
+           self.prefix_with_hat
+         end
+       end
+     end
+
+and use that in a localised manner:
+
+.. code:: Ruby
+
+   class A
+     using HattyString
+     def a(str)
+       str.reverse
+     end
+   end
+
+   class B
+     def a(str)
+       str.reverse
+     end
+   end
+
+and now we've isolated the changes:
+
+.. code:: Ruby
+
+   A.new.a('abcd') => '^abcd'
+   B.new.a('abcd') => 'dcba'
+
+Which is actually rather nice.
+
 Blocks
 ------
 
 I think everyone is required to mention blocks when talking about Ruby.
 
-Not really possible to have a nice syntax for this in Python, because of
+Ruby blocks are (essentially) anonymous functions that can be passed to
+methods.
+
+It's not really possible to have a nice syntax for this in Python, because of
 significant indentation. But that's OK, we don't have to have everything!
 
-Things to mention:
+Blocks 1: Who needs a ``for`` loop?
+-----------------------------------
 
-* the way ``yield`` is (sort of) lexically replaced by the block
-* block arguments, and how (for instance) iterating over a hash (dictionary)
-  with a block with one argument will give you each key, while with two it
-  will give you key and value.
-* the fact this engenders a different way of programming, which takes some
-  getting used to - so programming Ruby like a Python programmer will *not*
-  take advantage of this
+.. code:: Ruby
 
-Probably *don't* mention:
+  (1..3).each do |index|
+    puts index
+  end
 
-* Can pass the block as the last declared argument (``(..., &block)``) or can
-  pass it "outside" the argument list. In the latter case, there's a call to
-  see if the method was given a block argument or not.
+prints out::
+
+    1
+    2
+    3
+
+Aside on ranges
+---------------
+
+If that inclusive range feels wrong, Ruby has an alternative:
+
+.. code:: Ruby
+
+  (1...3).each do |index|
+    puts index
+  end
+
+prints out::
+
+    1
+    2
+
+Why is it that way round (``..`` being inclusive and ``...`` being exclusive)?
+
+Presumably because these operators (which also have more complicated / subtler
+uses than we've shown) are taken from Perl.
+
+It may or may not be relevant that ``1 .. 3`` in Pascal is inclusive.
 
 Nice example from `The Ruby Style Guide`_
 -----------------------------------------
@@ -828,7 +943,9 @@ Nice example from `The Ruby Style Guide`_
       # handle IOError
     end
 
-    with_io_error_handling { something_that_might_fail }
+    with_io_error_handling do
+      something_that_might_fail
+    end
 
 This shows a nice use  of blocks to wrap code in much the same way as we would
 use a context manager (and ``with``) in Python.
@@ -836,18 +953,22 @@ use a context manager (and ``with``) in Python.
 It also shows the ``begin ... rescue ... end`` mechanism that is equivalent to
 Python's ``try ... except``.
 
-Who needs a ``for`` loop?
+Although that's bad style
 -------------------------
 
-``2.times`` and ``1..3.each``.
+Actually, it's generally bad style to use the ``do .. end`` notation for
+blocks that could easily (and perhaps more readably) fit on one line.
 
-Closed and open intervals:
+So our previous example would *actually* probably be written:
 
-* ``1..3`` == 1, 2
-* ``1...3`` == 1, 2, 3
+.. code:: Ruby
 
-(or is it the other way round?)
+    with_io_error_handling { something_that_might_fail }
 
+using the in-line ``{ .. }`` notation.
+
+And whilst I still dislike ``{`` and ``}`` as the *only* block delimiters, I
+must admit that this convention actually works quite well.
 
 Lisp-1 or Lisp-2
 ----------------
@@ -966,27 +1087,100 @@ DSL example 1: bundle/gem files
 
 Very nice configuration files that read naturally, but are actually Ruby code.
 
-(so perhaps people *could* overuse this if they wanted? not sure)
+Somewhat randomly:
+
+.. code:: Ruby
+
+   ruby "2.1.3"
+   gem "nokogiri", ">= 1.4.2"
+   git "https://github.com/rails/rails.git" do
+     gem "activesupport"
+     gem "actionpack"
+   end
+   group :development, :optional => true do
+     gem "wimble"
+     gem "womble"
+   end
+
+(Of course, since they are Ruby code, they could become programs - there's
+good reason to not allow configuration files to be Turing complete - but in
+practice people don't seem to abuse this.)
 
 DSL example 2: rspec
 --------------------
 
-``rspec`` gets close to a Cucumber language in pure Ruby, and also provides
-Hamcrest abilities as well.
+rspec_ is (effectively) a Ruby DSL, providing Behaviour Driven Development.
 
+It gets close to being a Cucumber language in pure Ruby, and also provides
+Hamcrest-like abilities as well.
 
+There's a rather good book called `Effective Testing with RSpec 3`_
 
-Remember to mention the ability to do:
+.. _rspec: https://rspec.info/
+.. _`Effective Testing with RSpec 3`: https://pragprog.com/book/rspec3/effective-testing-with-rspec-3
+
+Here's a simple example from the front page of the rspec_ website:
 
 .. code:: Ruby
 
-   one
-     .two
-     .three
+   require 'bowling'
 
-which also makes things more readable.
+   Rspec.describe Bowling "#score" do
+     context "with no strikes or spares" do
+       it "sums the pin count for each roll" do
+         bowling = Bowling.new
+         20.times { bowling.hit(4) }
+         expect(bowling.score).to eq 80
+       end
+     end
+   end
 
-Also rather nice mocking constructs, and ``webmock`` is also nice.
+and if you run that (and ``bowling`` has been implemented) you might see:
+
+.. code:: shell
+
+    /rspec --format doc
+
+    Bowling#score
+      with no strikes or spares
+        sums the pin count for each roll
+
+    Finished in 0.00137 seconds (files took 0.13421 seconds to load)
+    1 example, 0 failures
+
+You quickly stop seeing the ``do`` at the end of the
+introductory lines, but they are, of course, starting blocks, and ``desribe``,
+``context`` and ``it`` are actually methods.
+
+Here's another example, this time from page 68 of `Effective Testing with
+RSpec 3`_:
+
+.. code:: Ruby
+
+   it 'returns the expense id' do
+     expense = { some: 'data' }
+
+     allow(ledger).to receive(:record)
+       .with(expense)
+       .and_return(RecordResult.new(true, 417, nil))
+
+     post '/expenses', JSON.generate(expense)
+
+     parsed = JSON.parse(last_response.body)
+     expect(parsed).to include('expense_id' => 417)
+   end
+
+
+Notes:
+
+1. ``{ some: 'data' }`` is the more colloquial way of writing the hash
+   ``{ 'some' => 'data' }``, as described in `The Ruby Style Guide`_.
+2. The ability to start lines like ``.with(expense)`` with the dot, instead of
+   requiring it at the end of the preceding line, seems to me to make this
+   much more readable.
+3. ``post`` does what it sounds like it does
+4. ``last_response`` is a method that returns the last response
+   receive in the session.
 
 The community
 -------------
@@ -1162,3 +1356,5 @@ Possibly useful links
 .. _`Object-oriented programming`: https://en.wikipedia.org/wiki/Object-oriented_programming
 
 .. _`Programming Ruby`: https://ruby-doc.com/docs/ProgrammingRuby/
+
+.. _Refinements: https://ruby-doc.org/core-3.0.2/doc/syntax/refinements_rdoc.html
