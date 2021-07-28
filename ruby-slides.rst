@@ -3,11 +3,23 @@ Why I like Python, and quite like Ruby
 
 .. class:: titleslideinfo
 
-    By Tibs / Tony Ibbs
+    By Tibs / Tony Ibbs (they / he)
 
-    Presented at CamPUG_, virtually, 2nd August 2021
+    .. raw:: pdf
+
+       Spacer 0 10
+
+    Presented at CamPUG_, virtually, Tuesday 3rd August 2021
+
+    .. raw:: pdf
+
+       Spacer 0 10
 
     Written in reStructuredText_, converted to PDF using rst2pdf_.
+
+    .. raw:: pdf
+
+       Spacer 0 10
 
     Slides and accompanying material at https://github.com/tibs/why-I-quite-like-Ruby
 
@@ -192,10 +204,11 @@ Why did I learn Ruby?
 
 In July 2019, the team I work on moved from Python/Django to Ruby/Rails.
 
-Caveat: I use Rails
--------------------
+Caveat: I learn Ruby and Rails at the same time
+-----------------------------------------------
 
-So my views on Ruby may as those on Python of a Django programmer.
+And Rails is at least as opinionated in how it uses Ruby as Django is in how
+it uses Python.
 
 (Rails likes "magic" even more than Django does.)
 

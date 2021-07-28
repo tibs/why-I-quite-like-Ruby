@@ -7,7 +7,7 @@ Written as a talk for CamPUG_
 History
 ~~~~~~~
 
-The talk was (will be) given at CamPUG_ on Tuesday 2nd August 2021.
+The talk was (will be) given at CamPUG_ on Tuesday 3rd August 2021.
 
 The article
 ~~~~~~~~~~~
