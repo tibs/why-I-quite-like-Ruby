@@ -77,7 +77,7 @@ that added a little more burden when writing code. The reasoning being that
 programs are communication, to other human beings as much as computers, and so
 we should do as much to make that communcation easy and pleasant as we can.
 
-And, of course, the origianl programmer in six months time may also be
+And, of course, the original programmer in six months time may also be
 greatful for this approach!
 
 Multi-paradigm
@@ -124,7 +124,7 @@ conservative lot.
 Values or methods?
 ------------------
 
-I love the fact that you can start with a value in a method:
+I love the fact that you can start with a value:
 
 .. code:: Python
 
@@ -281,7 +281,7 @@ Team moved in July 2019 from Python/Django to Ruby/Rails.
 Caveat: I use Rails
 -------------------
 
-I've learnt Ruby in the Rails context, so my views on the language itslf may
+I've learnt Ruby in the Rails context, so my views on the language itself may
 be as skewed as the views of a Python programmer who learnt the language to
 use Django. In particular, Rails likes "magic" even more than Django does.
 
@@ -699,10 +699,10 @@ They're very much a part of lisps, though, so it was probably inevitable that
 Ruby would have such a useful thing.
 
 On the whole, I like having symbols available. In Python we have to use a
-string in many places where a symbol, and then worry about guaranteeing that
-it is the same string. Also, Python doesn't guarantee to intern all strings
-(although nowadays I believe most constant strings are likely to be interned
-in CPython).
+string in many places instead of a symbol, and then worry about guaranteeing
+that it is the same string. Also, Python doesn't guarantee to intern all
+strings (although nowadays I believe most constant strings are likely to be
+interned in CPython).
 
 Messages from smalltalk
 -----------------------

@@ -59,3 +59,8 @@ styles:
     item-list-item:
         parent: bodytext
         spaceBefore: 12
+
+    acknowledgement:
+        parent: bodytext
+        alignment: TA_RIGHT
+        fontSize: 8
