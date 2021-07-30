@@ -189,7 +189,6 @@ Part 2: Ruby
    Spacer 0 20
 
 .. image:: images/ruby-kit/ruby.png
-   :scale: 150 %
 
 .. raw:: pdf
 
@@ -261,7 +260,7 @@ Why do I say I only "quite" like Ruby?
 Ruby errs a *little* too much on the magic side for me.
 
 But I love the fact that Ruby takes some very different approaches than
-Python, but fits in the same space.
+Python, while fitting in the same programming "space".
 
 Readability / writability
 -------------------------
@@ -373,8 +372,8 @@ This is a perfectly good Ruby program:
    puts "====="
 
 
-No ``self``
------------
+No self
+-------
 
 This is for information, not because I'm keen on it. I *like* explicit
 ``self``. But lots of people don't.
@@ -406,8 +405,6 @@ Readonly values
       #<Rectangle:0x00007fe9bc9520d8 @width=1, @height=2> (NoMethodError)
     Did you mean?  width
 
-.. To do this in Python, we'd need to use ``@property``.
-
 Writable values
 ---------------
 
@@ -424,9 +421,6 @@ Writable values
     m = MutableRectangle.new(1,2)
     m.width = 3
     m.width             # => 3
-
-.. To do this in Python, we'd simply set the values as ``self.width`` and
-.. ``self.height`` in our ``__init__`` method.
 
 Doing it "by hand"
 ------------------
@@ -449,13 +443,9 @@ Doing it "by hand"
     e.value = 3
     e.value              # => 3
 
-.. Obviously this simple case doesn't need explicit methods (we should use the
-.. ``attr`` variants instead, as above).
 
-.. In Python, we would again use ``@property``.
-
-``?`` and ``!`` at the end of method names
-------------------------------------------
+? and ! at the end of method names
+----------------------------------
 
 Methods ending with ``?`` should return a boolean, for instance
 
@@ -463,13 +453,13 @@ Methods ending with ``?`` should return a boolean, for instance
 
   [].empty?    # => true
 
-Methods ending with ``!`` should do something permanent or potentially
-dangerous, and should generally be paired with an equivalent method that
-doesn't end with ``!``.
-
 .. raw:: pdf
 
    PageBreak
+
+Methods ending with ``!`` should do something permanent or potentially
+dangerous, and should generally be paired with an equivalent method that
+doesn't end with ``!``.
 
 For instance:
 
@@ -504,28 +494,6 @@ For instance:
 
   :symbol
 
-.. As you might expect, symbols are "interned" - that is, there is only a
-   single copy of each symbol.
-
-.. Ruby uses symbols a lot, and is good at converting symbols to their string
-   representation when necessary (``:symbol`` becomes ``symbol``)
-
-.. So why doesn't Python have symbols, if they're so useful?
-
-.. My suspicion is that they're a little bit hard to understand when you first
-   come across them (I know I found them a bit hard to distinguish from the
-   concept of strings), and so that didn't fit the idea of simplicity that
-   (especially early) Python was striving for.
-
-.. They're very much a part of lisps, though, so it was probably inevitable
-   that Ruby would have such a useful thing.
-
-.. On the whole, I like having symbols available. In Python we have to use a
-   string in many places where a symbol, and then worry about guaranteeing
-   that it is the same string. Also, Python doesn't guarantee to intern all
-   strings (although nowadays I believe most constant strings are likely to be
-   interned in CPython).
-
 Messages from smalltalk
 -----------------------
 
@@ -535,14 +503,16 @@ In Ruby, the documentation would have it that:
 
    obj.thing
 
-sends the ``thing`` message to the object ``obj``, which will respond
+sends the message ``thing`` to the object ``obj``, which will respond
 appropriately if it understands that message.
+
+The ``send`` method makes this explicit:
 
 .. code:: Ruby
 
    obj.send(:thing)
 
-effectively calls ``obj.thing``.
+``obj.send(:thing)`` effectively calls ``obj.thing``.
 
 .. raw:: pdf
 
@@ -797,7 +767,7 @@ Although that's bad style
 Actually, it's generally bad style to use the ``do .. end`` notation for
 blocks that could easily (and perhaps more readably) fit on one line.
 
-So our previous example would *actually* probably be written:
+So our previous example should *actually* be written:
 
 .. code:: Ruby
 
@@ -880,8 +850,8 @@ will call the method of that name (if there is one).
 Of course, because Ruby allows a value and a method to have the same name, it
 does have to do a little guesswork in some contexts to decide which is needed.
 
-Omitting ``(`` and ``)``
-------------------------
+Omitting ( and )
+----------------
 
 On the other hand, since Ruby knows that a method is
 not a value, it is free to treat it differently. So the ``()`` can be optional.
@@ -896,15 +866,10 @@ Style Guide`_ section `DSL Method Calls`_)
 
 I think that this can often be *much more readable.*
 
-Sort-of DSLs
-------------
+Which leads to DSLs
+-------------------
 
 A DSL is a Domain Specific Language.
-
-Examples are things like:
-
-* Cucumber
-* ... give more examples ...
 
 Ruby is often said to be good for "creating" domain specific languages, but
 what I think that actually means is that, given blocks and the ability to
@@ -964,10 +929,6 @@ Here's a simple example from the front page of the rspec_ website:
      end
    end
 
-.. You quickly stop seeing the ``do`` at the end of the introductory lines,
-   but they are, of course, starting blocks, and ``desribe``, ``context`` and
-   ``it`` are actually methods.
-
 .. raw:: pdf
 
    PageBreak
@@ -1007,16 +968,26 @@ RSpec 3`_:
      expect(parsed).to include('expense_id' => 417)
    end
 
-.. Notes:
+DSL Example 3: `Sonic Pi`_
+--------------------------
 
-.. 1. ``{ some: 'data' }`` is the more colloquial way of writing the hash
-..    ``{ 'some' => 'data' }``, as described in `The Ruby Style Guide`_.
-.. 2. The ability to start lines like ``.with(expense)`` with the dot, instead of
-..    requiring it at the end of the preceding line, seems to me to make this
-..    much more readable.
-.. 3. ``post`` does what it sounds like it does
-.. 4. ``last_response`` is a method that returns the last response
-..    receive in the session.
+`Sonic Pi`_ is "a code-based music creation and performance tool".
+
+From their web page, IDM Breakbeat:
+
+.. code:: Ruby
+
+  define :play_bb do |n|
+    sample :drum_heavy_kick
+    sample :ambi_drone, rate: [0.25, 0.5, 0.125, 1].choose,
+      amp: 0.25 if rand < 0.125
+    sample :ambi_lunar_land, rate: [0.5, 0.125, 1, -1, -0.5].choose,
+      amp: 0.25 if rand < 0.125
+    sample :loop_amen, attack: 0, release: 0.05, start: 1 - (1.0 / n),
+      rate: [1,1,1,1,1,1,-1].choose
+    sleep sample_duration(:loop_amen) / n
+  end
+  loop {play_bb([1,2,4,8,16].choose)}
 
 The community
 -------------
@@ -1059,25 +1030,6 @@ Because Ruby allows leaving off ``()`` when calling methods, which it can
 safely do because it is a Lisp-2, it also allows the creation of (apparent)
 DSLs, like ``rspec`` and the bundle/gem file format
 
-Where next?
------------
-
-My heart is with Python, and I'm currently paid to write in Ruby,
-so what language should I think about next?
-
-Well, for various reasons (and despite some residual prejudice I have left
-over from the 1980s), it looks as if the obvious answer is Common Lisp.
-
-.. code:: lisp
-
-    CL-USER> (defun hello ()
-               (format t "Hello, World!~%"))
-    HELLO
-    CL-USER> (hello)
-    Hello, World!
-    NIL
-    CL-USER>
-
 .. Check which of these I use in the slides
 
 .. _`About Ruby`: https://www.ruby-lang.org/en/about/
@@ -1102,10 +1054,6 @@ over from the 1980s), it looks as if the obvious answer is Common Lisp.
 .. _Refinements: https://ruby-doc.org/core-3.0.2/doc/syntax/refinements_rdoc.html
 
 
-
-
-
-
 Fin
 ---
 
@@ -1125,3 +1073,24 @@ Slides and accompanying material at https://github.com/tibs/why-I-quite-like-Rub
 .. _CamPUG: https://www.meetup.com/CamPUG/
 .. _reStructuredText: http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html
 .. _rst2pdf: https://rst2pdf.org/
+
+.. _`Sonic Pi`: https://sonic-pi.net/
+
+Where next?
+-----------
+
+My heart is with Python, and I'm currently paid to write in Ruby,
+so what language should I think about next?
+
+Well, for various reasons (and despite some residual prejudice I have left
+over from the 1980s), it looks as if the obvious answer is Common Lisp.
+
+.. code:: lisp
+
+    CL-USER> (defun hello ()
+               (format t "Hello, World!~%"))
+    HELLO
+    CL-USER> (hello)
+    Hello, World!
+    NIL
+    CL-USER>

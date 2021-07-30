@@ -13,16 +13,16 @@ default: html pdf
 .PHONY: html
 html:
 	rst2html.py README.rst README.html
-	rst2html.py why-i-quite-like-ruby.rst why-i-quite-like-ruby.html
 	rst2html.py ruby-slides.rst ruby-slides.html
+	rst2html.py ruby-slide-notes.rst ruby-slide-notes.html
 
 .PHONY: pdf
-pdf: slides paper
+pdf: slides notes
 
-# For the paper we don't use the slide settings
-.PHONY: paper
-paper:
-	rst2pdf why-i-quite-like-ruby.rst -o why-i-quite-like-ruby.pdf
+# For the notes we don't use the slide settings
+.PHONY: notes
+notes:
+	rst2pdf ruby-slide-notes.rst -o ruby-slide-notes.pdf
 
 .PHONY: slides
 slides: make4x3 make16x9
@@ -55,7 +55,7 @@ distclean: clean
 help:
 	@echo 'make           same as: make html pdf'
 	@echo 'make pdf       make all the PDF files using rst2pdf'
-	@echo 'make paper     make the PDF for the document, not the slides'
+	@echo 'make notes     make the PDF for the notes, not the slides'
 	@echo 'make slides    just make ruby-slides-[4x3|16x9].pdf'
 	@echo 'make 4x3       make and open ruby-slides-4x3.pdf'
 	@echo 'make 16x9      make and open ruby-slides-16x9.pdf'

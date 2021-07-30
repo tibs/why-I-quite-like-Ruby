@@ -9,21 +9,6 @@ History
 
 The talk was (will be) given at CamPUG_ on Tuesday 3rd August 2021.
 
-The article
-~~~~~~~~~~~
-
-The material of the talk is also available as an article.
-
-The source for the article are in `<why-i-quite-like-ruby.rst>`_
-
-(Note that github will present the ``.rst`` files in rendered form as HTML,
-albeit using their own styling (which makes notes a bit odd). If you want
-to see the original reStructuredText source, you have to click on the "Raw"
-link at the top of the file's page.)
-
-For convenience, there will also be a PDF rendering of the article,
-`<why-i-quite-like-ruby.pdf>`_
-
 The slides
 ~~~~~~~~~~
 The slides are written using reStructuredText_, and thus intended to be
@@ -32,7 +17,7 @@ readable as plain text.
 The sources for the slides are in `<ruby-slides.rst>`_.
 
 (Note that github will present the ``.rst`` files in rendered form as HTML,
-albeit using their own styling (which makes notes a bit odd). If you want
+albeit using their own styling (which is occasionally a bit odd). If you want
 to see the original reStructuredText source, you have to click on the "Raw"
 link at the top of the file's page.)
 
@@ -43,6 +28,21 @@ going to be presenting in a physical venue.
 
 The PDF files may not always be as up-to-date as the source files, so check
 their timestamps.
+
+The slides notes
+~~~~~~~~~~~~~~~~
+
+There are also notes for the slides.
+
+The sources for the notes are in `<ruby-slide-notes.rst>`_
+
+(Note that github will present the ``.rst`` files in rendered form as HTML,
+albeit using their own styling (which is occasionally a bit odd). If you want
+to see the original reStructuredText source, you have to click on the "Raw"
+link at the top of the file's page.)
+
+For convenience, there will also be a PDF rendering of the notes,
+`<ruby-slide-notes.pdf>`_
 
 Making the PDF files
 ~~~~~~~~~~~~~~~~~~~~
