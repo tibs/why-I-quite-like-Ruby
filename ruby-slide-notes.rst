@@ -1328,10 +1328,10 @@ Python, Ruby and "unexpected consequences" (optional slide)
 -----------------------------------------------------------
 
 Because Python has significant indentation, it can't really (easily) have
-blocks.
+blocks in the Ruby style.
 
-(note to self: what was that language I though might be Python-inspired and
-have blocks?)
+(Although Lobster_, a statically typed language with a Python-like syntax,
+seems to be doing something interesting here.)
 
 Because Ruby is a Lisp-2, it has to do some guesswork, sometimes, to decide
 whether to use a value or a method.
@@ -1362,8 +1362,6 @@ so what language should I think about next?
 
 Well, for various reasons (and despite some residual prejudice I have left
 over from the 1980s), it looks as if the obvious answer is Common Lisp.
-
-(PERHAPS LEAVE IT AT THAT, BUT MAYBE GIVE A LITTLE MORE INFORMATION!)
 
 Addenda: More on Lisp-1 versus Lisp-2
 =====================================
@@ -1413,9 +1411,8 @@ Addenda: More on Lisp-1 versus Lisp-2
 .. _`Ruby Creator Matz: How Emacs changed my life`:
    http://ergoemacs.org/emacs/Matz_Ruby_how_emacs_changed_my_life.html
 
-
-Possibly useful links
-=====================
+Some other links
+================
 
 * `About Ruby`_ at https://www.ruby-lang.org/
 * `Programming Ruby`_ ("The Pick-axe Book", also available as a printed book)
@@ -1461,6 +1458,8 @@ Possibly useful links
 .. _Refinements: https://ruby-doc.org/core-3.0.2/doc/syntax/refinements_rdoc.html
 
 .. _`Sonic Pi`: https://sonic-pi.net/
+
+.. _Lobster: https://strlen.com/lobster/
 
 .. _`Creative Commons Attribution-ShareAlike 4.0 International License`: http://creativecommons.org/licenses/by-sa/4.0/
 

@@ -1018,10 +1018,7 @@ Python, Ruby and "unexpected consequences" (optional slide)
 -----------------------------------------------------------
 
 Because Python has significant indentation, it can't really (easily) have
-blocks.
-
-(note to self: what was that language I though might be Python-inspired and
-have blocks?)
+blocks in the Ruby style.
 
 Because Ruby is a Lisp-2, it has to do some guesswork, sometimes, to decide
 whether to use a value or a method.
