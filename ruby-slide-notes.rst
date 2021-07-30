@@ -68,7 +68,7 @@ in 1987)
 Significant indentation, and the aim to be readable
 ---------------------------------------------------
 
-.. code:: Python
+.. code:: python
 
    if something:
       do_other_thing()
@@ -143,7 +143,7 @@ Values or methods?
 
 I love the fact that you can start with a value:
 
-.. code:: Python
+.. code:: python
 
    class UsefulNumbers:
         random = 4
@@ -151,7 +151,7 @@ I love the fact that you can start with a value:
 and later on realise that this actually needs to be a method, and change it
 without the user needing to change their own code:
 
-.. code:: Python
+.. code:: python
 
    import random
 
@@ -241,7 +241,7 @@ The Zen of Python
 "The Zen of Python" is a joke by Tim Peters from 1999. It has been
 incorporated into the Python library as an easter egg:
 
-.. code:: Python
+.. code:: python
 
     >>> import this
     The Zen of Python, by Tim Peters
@@ -402,7 +402,7 @@ Ruby is much more likely to add synonyms for things - much less interested in
 "only one way". Instead, wants to give the predictable way (and thus easier
 to write). For instance:
 
-.. code:: Ruby
+.. code:: ruby
 
   hash.each_key do |k|
      ...
@@ -410,7 +410,7 @@ to write). For instance:
 
 as well as (the less colloquial)
 
-.. code:: Ruby
+.. code:: ruby
 
   hash.keys.each do |k|
      ...
@@ -424,13 +424,13 @@ delineation (unlike, for instance, C-derived languages).
 
 In particular, the *end* of a block is always indicated by ``end``:
 
-.. code:: Ruby
+.. code:: ruby
 
    begin
      ...
    end
 
-.. code:: Ruby
+.. code:: ruby
 
    if choice
      ...
@@ -447,7 +447,7 @@ Indentation in Ruby is conventionally two spaces.
 Line continuation
 -----------------
 
-.. code:: Ruby
+.. code:: ruby
 
    difference = minimum -
                 maximum
@@ -457,7 +457,7 @@ continues to the next line. I used to love this in BCPL.
 
 And
 
-.. code:: Ruby
+.. code:: ruby
 
     allow(ledger).to receive(:record)
       .with(expense)
@@ -541,7 +541,7 @@ And methods can (apparently) be declared at the top level.
 
 So this is a perfectly good Ruby program:
 
-.. code:: Ruby
+.. code:: ruby
 
    puts "Hello"
    puts "====="
@@ -585,7 +585,7 @@ makes it so easy to create those that you don't really think about it.
 Readonly values
 ---------------
 
-.. code:: Ruby
+.. code:: ruby
 
     class Rectangle
       attr_reader :width, :height
@@ -595,7 +595,7 @@ Readonly values
       end
     end
 
-.. code:: Ruby
+.. code:: ruby
 
     r = Rectangle.new(1,2)
     r.width = 3
@@ -608,7 +608,7 @@ To do this in Python, we'd need to use ``@property``.
 Writable values
 ---------------
 
-.. code:: Ruby
+.. code:: ruby
 
     class MutableRectangle
       attr_accessor :width, :height
@@ -628,7 +628,7 @@ To do this in Python, we'd simply set the values as ``self.width`` and
 Doing it "by hand"
 ------------------
 
-.. code:: Ruby
+.. code:: ruby
 
     class Example
       def value=(v)
@@ -639,7 +639,7 @@ Doing it "by hand"
       end
     end
 
-.. code:: Ruby
+.. code:: ruby
 
     e = Example.new
     e.value              # => nil
@@ -660,7 +660,7 @@ In Python, we would again use ``@property``.
 
 Methods ending with ``?`` should return a boolean, for instance:
 
-.. code:: Ruby
+.. code:: ruby
 
   [].empty?    # => true
 
@@ -709,7 +709,7 @@ Somewhat simplistically, it's a constant whose value is itself.
 
 For instance:
 
-.. code:: Ruby::
+.. code:: ruby
 
   :symbol
 
@@ -740,7 +740,7 @@ Messages from smalltalk
 
 In Ruby, the documentation would have it that:
 
-.. code:: Ruby
+.. code:: ruby
 
    obj.thing
 
@@ -749,7 +749,7 @@ appropriately if it knows that message (in the normal OO manner).
 
 The ``send`` method makes this explicit:
 
-.. code:: Ruby
+.. code:: ruby
 
    obj.send(:thing)
 
@@ -759,7 +759,7 @@ It can even be used to call a ``private`` method.
 
 For instance, given:
 
-.. code:: Ruby
+.. code:: ruby
 
    class Something
      # ...
@@ -771,7 +771,7 @@ For instance, given:
 
 it's not possible to do:
 
-  .. code:: Ruby
+  .. code:: ruby
 
      s = Something.new
      s.reset
@@ -779,7 +779,7 @@ it's not possible to do:
 (Ruby will tell you you're trying to call a private method), but it *is*
 possible to do:
 
-  .. code:: Ruby
+  .. code:: ruby
 
      s = Something.new
      s.send(:reset)
@@ -790,7 +790,7 @@ visibility.)
 
 One can ask if an object understands a message:
 
-.. code:: Ruby
+.. code:: ruby
 
    s.responds_to?(:reset)  # => false, because it's private
    1.responds_to?(:times)  # => true
@@ -798,7 +798,7 @@ One can ask if an object understands a message:
 It's also quite easy to catch messages as they "go past" and decide what to do
 with them, using ``method_missing`` method:
 
-.. code:: Ruby
+.. code:: ruby
 
    class Example
      def method_missing(name, *args, &block)
@@ -816,7 +816,7 @@ The ``method_missing`` method is documented as:
 
 Given the above:
 
-.. code:: Ruby
+.. code:: ruby
 
     irb(main):028:0> e = Example.new
     => #<Example:0x00007f807c975dc0>
@@ -834,7 +834,7 @@ Given the above:
 ``respond_to_missing?`` method so that a caller could ask what messages the
 object *does* respond to. Because of that:
 
-.. code:: Ruby
+.. code:: ruby
 
    e.respond_to?(:random)  => false
 
@@ -917,7 +917,7 @@ too powerful for its own good.
 
 For instance, we can "open" the String class and add a useful (missing) method:
 
-.. code:: Ruby
+.. code:: ruby
 
    class String
      def prefix_with_hat
@@ -929,7 +929,7 @@ and now ``'abcd'.prefix_with_hat`` will give us ``'^abcd'``.
 
 But imagine instead we decide to change an existing method:
 
-.. code:: Ruby
+.. code:: ruby
 
    class String
      def reverse
@@ -952,7 +952,7 @@ Refinements_ give more control.
 
 We can instead refine the ``String`` class inside a module:
 
-  .. code:: Ruby
+  .. code:: ruby
 
      module HattyString
        refine String do
@@ -964,7 +964,7 @@ We can instead refine the ``String`` class inside a module:
 
 and use that in a localised manner:
 
-.. code:: Ruby
+.. code:: ruby
 
    class A
      using HattyString
@@ -981,7 +981,7 @@ and use that in a localised manner:
 
 and now we've isolated the changes:
 
-.. code:: Ruby
+.. code:: ruby
 
    A.new.a('abcd') => '^abcd'
    B.new.a('abcd') => 'dcba'
@@ -1002,7 +1002,7 @@ significant indentation. But that's OK, we don't have to have everything!
 Blocks 1: Who needs a ``for`` loop?
 -----------------------------------
 
-.. code:: Ruby
+.. code:: ruby
 
   (1..3).each do |index|
     puts index
@@ -1019,7 +1019,7 @@ Aside on ranges
 
 If that inclusive range feels wrong, Ruby has an alternative:
 
-.. code:: Ruby
+.. code:: ruby
 
   (1...3).each do |index|
     puts index
@@ -1040,7 +1040,7 @@ It may or may not be relevant that ``1 .. 3`` in Pascal is inclusive.
 Nice example from `The Ruby Style Guide`_
 -----------------------------------------
 
-.. code:: Ruby
+.. code:: ruby
 
     def with_io_error_handling
       yield
@@ -1066,7 +1066,7 @@ blocks that could easily (and perhaps more readably) fit on one line.
 
 So our previous example should *actually* be written:
 
-.. code:: Ruby
+.. code:: ruby
 
     with_io_error_handling { something_that_might_fail }
 
@@ -1087,7 +1087,7 @@ At the start of https://bugs.ruby-lang.org/issues/15799#note-29 Matz says:
 
 So in Python we expect to be able to do:
 
-.. code:: Python
+.. code:: python
 
    fn = len
    fn([1, 2, 3])
@@ -1095,7 +1095,7 @@ So in Python we expect to be able to do:
 or even pass ``fn`` as an argument to a callable, without needing to do
 anything special. On the other hand:
 
-.. code:: Python
+.. code:: python
 
    a = 3
    def a(): print('A')
@@ -1114,7 +1114,7 @@ Bare callables
 
 In Python:
 
-.. code:: Python
+.. code:: python
 
    callable
 
@@ -1122,20 +1122,20 @@ just "sits there" (well, except in the REPL, where it will report what it is)
 
 You need to use the ``()`` (call) operators (!) to make something happen:
 
-.. code:: Python
+.. code:: python
 
    callable()
 
 and to call with arguments you need to put those arguments inside the ``()``:
 
-.. code:: Python
+.. code:: python
 
    callable(1, 2, 3)
 
 
 In Ruby:
 
-.. code:: Ruby
+.. code:: ruby
 
    callable
 
@@ -1155,13 +1155,13 @@ Style Guide`_ sectin `DSL Method Calls`_)
 
 So instead of:
 
-.. code:: Ruby
+.. code:: ruby
 
    method(1, 2, 3)
 
 it's quite possible (and often colloquial) to do:
 
-.. code:: Ruby
+.. code:: ruby
 
    method 1 2 3
 
@@ -1184,7 +1184,7 @@ Very nice configuration files that read naturally, but are actually Ruby code.
 
 Somewhat randomly:
 
-.. code:: Ruby
+.. code:: ruby
 
    ruby "2.1.3"
    gem "nokogiri", ">= 1.4.2"
@@ -1216,7 +1216,7 @@ There's a rather good book called `Effective Testing with RSpec 3`_
 
 Here's a simple example from the front page of the rspec_ website:
 
-.. code:: Ruby
+.. code:: ruby
 
    require 'bowling'
 
@@ -1250,7 +1250,7 @@ introductory lines, but they are, of course, starting blocks, and ``desribe``,
 Here's another example, this time from page 68 of `Effective Testing with
 RSpec 3`_:
 
-.. code:: Ruby
+.. code:: ruby
 
    it 'returns the expense id' do
      expense = { some: 'data' }
@@ -1284,7 +1284,7 @@ DSL Example 3: `Sonic Pi`_
 
 From their web page, IDM Breakbeat:
 
-.. code:: Ruby
+.. code:: ruby
 
   define :play_bb do |n|
     sample :drum_heavy_kick

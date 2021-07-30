@@ -13,7 +13,6 @@ default: html pdf
 .PHONY: html
 html:
 	rst2html.py README.rst README.html
-	rst2html.py ruby-slides.rst ruby-slides.html
 	rst2html.py ruby-slide-notes.rst ruby-slide-notes.html
 
 .PHONY: pdf
