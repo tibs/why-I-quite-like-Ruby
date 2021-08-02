@@ -1,6 +1,8 @@
 # This version of the Makefile assumes that rst2pdf and its dependencies
 # are installed.
 
+# Using '-e preprocess' allows me to use '.. page::' for pagebreaks, and
+# '.. space:: <number>' for space
 RST2PDF=rst2pdf --break-level=1 -e preprocess
             #--fit-literal-mode=overflow \
             #--font-path /Library/Fonts/Microsoft \

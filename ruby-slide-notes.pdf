@@ -2,7 +2,7 @@
 %“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
 1 0 obj
 <<
-/F1 2 0 R /F2 3 0 R /F3 8 0 R /F4 13 0 R /F5 14 0 R /F6 35 0 R
+/F1 2 0 R /F2 3 0 R /F3 8 0 R /F4 12 0 R /F5 13 0 R /F6 35 0 R
 >>
 endobj
 2 0 obj
@@ -68,10 +68,20 @@ endobj
 <<
 /A <<
 /S /URI /Type /Action /URI (https://github.com/tibs/python-history)
->> /Border [ 0 0 0 ] /Rect [ 294.9929 346.8236 500.5133 358.8236 ] /Subtype /Link /Type /Annot
+>> /Border [ 0 0 0 ] /Rect [ 294.9929 402.6691 500.5133 414.6691 ] /Subtype /Link /Type /Annot
 >>
 endobj
 12 0 obj
+<<
+/BaseFont /Courier-Bold /Encoding /WinAnsiEncoding /Name /F4 /Subtype /Type1 /Type /Font
+>>
+endobj
+13 0 obj
+<<
+/BaseFont /Courier /Encoding /WinAnsiEncoding /Name /F5 /Subtype /Type1 /Type /Font
+>>
+endobj
+14 0 obj
 <<
 /Annots [ 4 0 R 5 0 R 6 0 R 7 0 R 11 0 R ] /Contents 152 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 151 0 R /Resources <<
 /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] /XObject <<
@@ -81,16 +91,6 @@ endobj
   /Trans <<
 
 >> /Type /Page
->>
-endobj
-13 0 obj
-<<
-/BaseFont /Courier-Bold /Encoding /WinAnsiEncoding /Name /F4 /Subtype /Type1 /Type /Font
->>
-endobj
-14 0 obj
-<<
-/BaseFont /Courier /Encoding /WinAnsiEncoding /Name /F5 /Subtype /Type1 /Type /Font
 >>
 endobj
 15 0 obj
@@ -107,48 +107,48 @@ endobj
 <<
 /A <<
 /S /URI /Type /Action /URI (https://github.com/tibs/python-history)
->> /Border [ 0 0 0 ] /Rect [ 83.26291 238.6236 273.5929 250.6236 ] /Subtype /Link /Type /Annot
+>> /Border [ 0 0 0 ] /Rect [ 83.26291 327.8236 273.5929 339.8236 ] /Subtype /Link /Type /Annot
 >>
 endobj
 17 0 obj
 <<
 /A <<
 /S /URI /Type /Action /URI (https://github.com/DRMacIver/schroedinteger)
->> /Border [ 0 0 0 ] /Rect [ 85.69291 200.3736 286.3229 212.3736 ] /Subtype /Link /Type /Annot
+>> /Border [ 0 0 0 ] /Rect [ 85.69291 289.5736 286.3229 301.5736 ] /Subtype /Link /Type /Annot
 >>
 endobj
 18 0 obj
 <<
 /A <<
 /S /URI /Type /Action /URI (https://pyos.github.io/dg/)
->> /Border [ 0 0 0 ] /Rect [ 85.69291 98.37362 194.0929 110.3736 ] /Subtype /Link /Type /Annot
+>> /Border [ 0 0 0 ] /Rect [ 85.69291 187.5736 194.0929 199.5736 ] /Subtype /Link /Type /Annot
 >>
 endobj
 19 0 obj
 <<
-/Annots [ 16 0 R 17 0 R 18 0 R ] /Contents 154 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 151 0 R /Resources <<
-/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
->> /Rotate 0 
-  /Trans <<
-
->> /Type /Page
+/A <<
+/S /URI /Type /Action /URI (https://docs.hylang.org/)
+>> /Border [ 0 0 0 ] /Rect [ 85.69291 133.5736 189.0829 145.5736 ] /Subtype /Link /Type /Annot
 >>
 endobj
 20 0 obj
 <<
-/A <<
-/S /URI /Type /Action /URI (https://docs.hylang.org/)
->> /Border [ 0 0 0 ] /Rect [ 85.69291 714.7736 189.0829 726.7736 ] /Subtype /Link /Type /Annot
->>
-endobj
-21 0 obj
-<<
-/Annots [ 20 0 R ] /Contents 155 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 151 0 R /Resources <<
+/Annots [ 16 0 R 17 0 R 18 0 R 19 0 R ] /Contents 154 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 151 0 R /Resources <<
 /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
 >> /Rotate 0 
   /Trans <<
 
 >> /Type /Page
+>>
+endobj
+21 0 obj
+<<
+/Contents 155 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 151 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
 >>
 endobj
 22 0 obj
@@ -171,12 +171,26 @@ endobj
 <<
 /A <<
 /S /URI /Type /Action /URI (https://en.wikipedia.org/wiki/Yukihiro_Matsumoto)
->> /Border [ 0 0 0 ] /Rect [ 62.69291 219.4336 278.3229 231.4336 ] /Subtype /Link /Type /Annot
+>> /Border [ 0 0 0 ] /Rect [ 62.69291 319.7374 278.3229 331.7374 ] /Subtype /Link /Type /Annot
 >>
 endobj
 25 0 obj
 <<
-/Annots [ 24 0 R ] /Contents 156 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 151 0 R /Resources <<
+/A <<
+/S /URI /Type /Action /URI (http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/179642)
+>> /Border [ 0 0 0 ] /Rect [ 177.9529 162.9874 266.3179 180.9874 ] /Subtype /Link /Type /Annot
+>>
+endobj
+26 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/179642)
+>> /Border [ 0 0 0 ] /Rect [ 382.8329 144.9874 436.7429 156.9874 ] /Subtype /Link /Type /Annot
+>>
+endobj
+27 0 obj
+<<
+/Annots [ 24 0 R 25 0 R 26 0 R ] /Contents 156 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 151 0 R /Resources <<
 /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] /XObject <<
 /FormXob.c04ac8e6c359185e4b0bc2c56e564d3a 22 0 R
 >>
@@ -186,28 +200,14 @@ endobj
 >> /Type /Page
 >>
 endobj
-26 0 obj
-<<
-/A <<
-/S /URI /Type /Action /URI (http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/179642)
->> /Border [ 0 0 0 ] /Rect [ 177.9529 747.0236 266.3179 765.0236 ] /Subtype /Link /Type /Annot
->>
-endobj
-27 0 obj
-<<
-/A <<
-/S /URI /Type /Action /URI (http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/179642)
->> /Border [ 0 0 0 ] /Rect [ 382.8329 729.0236 436.7429 741.0236 ] /Subtype /Link /Type /Annot
->>
-endobj
 28 0 obj
 <<
-/Annots [ 26 0 R 27 0 R ] /Contents 157 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 151 0 R /Resources <<
+/Contents 157 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 151 0 R /Resources <<
 /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
->> /Rotate 0 
-  /Trans <<
+>> /Rotate 0 /Trans <<
 
->> /Type /Page
+>> 
+  /Type /Page
 >>
 endobj
 29 0 obj
@@ -224,28 +224,28 @@ endobj
 <<
 /A <<
 /S /URI /Type /Action /URI (https://www.mumble.net/~jar/articles/oo.html)
->> /Border [ 0 0 0 ] /Rect [ 161.5029 519.0236 384.9529 531.0236 ] /Subtype /Link /Type /Annot
+>> /Border [ 0 0 0 ] /Rect [ 161.5029 639.0236 384.9529 651.0236 ] /Subtype /Link /Type /Annot
 >>
 endobj
 31 0 obj
 <<
 /A <<
 /S /URI /Type /Action /URI (https://en.wikipedia.org/wiki/Object-oriented_programming)
->> /Border [ 0 0 0 ] /Rect [ 165.5229 405.0236 302.1167 417.0236 ] /Subtype /Link /Type /Annot
+>> /Border [ 0 0 0 ] /Rect [ 165.5229 483.0236 302.1167 495.0236 ] /Subtype /Link /Type /Annot
 >>
 endobj
 32 0 obj
 <<
 /A <<
 /S /URI /Type /Action /URI (https://rubystyle.guide/)
->> /Border [ 0 0 0 ] /Rect [ 62.69291 105.8236 160.5129 117.8236 ] /Subtype /Link /Type /Annot
+>> /Border [ 0 0 0 ] /Rect [ 62.69291 183.8236 160.5129 195.8236 ] /Subtype /Link /Type /Annot
 >>
 endobj
 33 0 obj
 <<
 /A <<
 /S /URI /Type /Action /URI (https://rubystyle.guide/)
->> /Border [ 0 0 0 ] /Rect [ 66.02291 87.82362 163.8429 99.82362 ] /Subtype /Link /Type /Annot
+>> /Border [ 0 0 0 ] /Rect [ 66.02291 165.8236 163.8429 177.8236 ] /Subtype /Link /Type /Annot
 >>
 endobj
 34 0 obj
@@ -668,7 +668,7 @@ endobj
 endobj
 88 0 obj
 <<
-/Author () /CreationDate (D:20210730202014+00'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20210730202014+00'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
+/Author () /CreationDate (D:20210802185412+00'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20210802185412+00'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
   /Subject (\(unspecified\)) /Title (Why I like Python, and quite like Ruby) /Trapped /False
 >>
 endobj
@@ -679,174 +679,174 @@ endobj
 endobj
 90 0 obj
 <<
-/Dest [ 12 0 R /XYZ 62.69291 729.0236 0 ] /Next 91 0 R /Parent 89 0 R /Title (Notes for the slides)
+/Dest [ 14 0 R /XYZ 62.69291 729.0236 0 ] /Next 91 0 R /Parent 89 0 R /Title (Notes for the slides)
 >>
 endobj
 91 0 obj
 <<
-/Dest [ 12 0 R /XYZ 62.69291 594.0236 0 ] /Next 92 0 R /Parent 89 0 R /Prev 90 0 R /Title (What we shall cover)
+/Dest [ 14 0 R /XYZ 62.69291 594.0236 0 ] /Next 92 0 R /Parent 89 0 R /Prev 90 0 R /Title (What we shall cover)
 >>
 endobj
 92 0 obj
 <<
-/Count 13 /Dest [ 12 0 R /XYZ 62.69291 525.0236 0 ] /First 93 0 R /Last 105 0 R /Next 106 0 R /Parent 89 0 R 
+/Count 13 /Dest [ 14 0 R /XYZ 62.69291 525.0236 0 ] /First 93 0 R /Last 105 0 R /Next 106 0 R /Parent 89 0 R 
   /Prev 91 0 R /Title (Part 1: Python)
 >>
 endobj
 93 0 obj
 <<
-/Dest [ 12 0 R /XYZ 62.69291 322.8236 0 ] /Next 94 0 R /Parent 92 0 R /Title (Finding Python)
+/Dest [ 14 0 R /XYZ 62.69291 378.6691 0 ] /Next 94 0 R /Parent 92 0 R /Title (Finding Python)
 >>
 endobj
 94 0 obj
 <<
-/Dest [ 15 0 R /XYZ 62.69291 765.0236 0 ] /Next 95 0 R /Parent 92 0 R /Prev 93 0 R /Title (Significant indentation, and the aim to be readable)
+/Dest [ 14 0 R /XYZ 62.69291 162.6691 0 ] /Next 95 0 R /Parent 92 0 R /Prev 93 0 R /Title (Significant indentation, and the aim to be readable)
 >>
 endobj
 95 0 obj
 <<
-/Dest [ 15 0 R /XYZ 62.69291 459.8236 0 ] /Next 96 0 R /Parent 92 0 R /Prev 94 0 R /Title (Multi-paradigm)
+/Dest [ 15 0 R /XYZ 62.69291 531.0236 0 ] /Next 96 0 R /Parent 92 0 R /Prev 94 0 R /Title (Multi-paradigm)
 >>
 endobj
 96 0 obj
 <<
-/Dest [ 15 0 R /XYZ 62.69291 393.8236 0 ] /Next 97 0 R /Parent 92 0 R /Prev 95 0 R /Title (High level datastructures built in)
+/Dest [ 15 0 R /XYZ 62.69291 465.0236 0 ] /Next 97 0 R /Parent 92 0 R /Prev 95 0 R /Title (High level datastructures built in)
 >>
 endobj
 97 0 obj
 <<
-/Dest [ 15 0 R /XYZ 62.69291 309.8236 0 ] /Next 98 0 R /Parent 92 0 R /Prev 96 0 R /Title (Dictionaries all the way down)
+/Dest [ 15 0 R /XYZ 62.69291 381.0236 0 ] /Next 98 0 R /Parent 92 0 R /Prev 96 0 R /Title (Dictionaries all the way down)
 >>
 endobj
 98 0 obj
 <<
-/Dest [ 15 0 R /XYZ 62.69291 231.8236 0 ] /Next 99 0 R /Parent 92 0 R /Prev 97 0 R /Title (Python is malleable)
+/Dest [ 15 0 R /XYZ 62.69291 303.0236 0 ] /Next 99 0 R /Parent 92 0 R /Prev 97 0 R /Title (Python is malleable)
 >>
 endobj
 99 0 obj
 <<
-/Dest [ 19 0 R /XYZ 62.69291 765.0236 0 ] /Next 100 0 R /Parent 92 0 R /Prev 98 0 R /Title (Values or methods?)
+/Dest [ 15 0 R /XYZ 62.69291 183.0236 0 ] /Next 100 0 R /Parent 92 0 R /Prev 98 0 R /Title (Values or methods?)
 >>
 endobj
 100 0 obj
 <<
-/Dest [ 19 0 R /XYZ 62.69291 502.6236 0 ] /Next 101 0 R /Parent 92 0 R /Prev 99 0 R /Title ("Safe and sane")
+/Dest [ 20 0 R /XYZ 62.69291 591.8236 0 ] /Next 101 0 R /Parent 92 0 R /Prev 99 0 R /Title ("Safe and sane")
 >>
 endobj
 101 0 obj
 <<
-/Dest [ 19 0 R /XYZ 62.69291 442.6236 0 ] /Next 102 0 R /Parent 92 0 R /Prev 100 0 R /Title (Batteries included)
+/Dest [ 20 0 R /XYZ 62.69291 531.8236 0 ] /Next 102 0 R /Parent 92 0 R /Prev 100 0 R /Title (Batteries included)
 >>
 endobj
 102 0 obj
 <<
-/Dest [ 19 0 R /XYZ 62.69291 376.6236 0 ] /Next 103 0 R /Parent 92 0 R /Prev 101 0 R /Title (The community and a gentle sense of humour)
+/Dest [ 20 0 R /XYZ 62.69291 465.8236 0 ] /Next 103 0 R /Parent 92 0 R /Prev 101 0 R /Title (The community and a gentle sense of humour)
 >>
 endobj
 103 0 obj
 <<
-/Dest [ 21 0 R /XYZ 62.69291 687.0236 0 ] /Next 104 0 R /Parent 92 0 R /Prev 102 0 R /Title (Docstrings - these came later)
+/Dest [ 21 0 R /XYZ 62.69291 765.0236 0 ] /Next 104 0 R /Parent 92 0 R /Prev 102 0 R /Title (Docstrings - these came later)
 >>
 endobj
 104 0 obj
 <<
-/Dest [ 21 0 R /XYZ 62.69291 537.0236 0 ] /Next 105 0 R /Parent 92 0 R /Prev 103 0 R /Title (The Zen of Python)
+/Dest [ 21 0 R /XYZ 62.69291 615.0236 0 ] /Next 105 0 R /Parent 92 0 R /Prev 103 0 R /Title (The Zen of Python)
 >>
 endobj
 105 0 obj
 <<
-/Dest [ 25 0 R /XYZ 62.69291 765.0236 0 ] /Parent 92 0 R /Prev 104 0 R /Title (Too much other stuff to go into)
+/Dest [ 21 0 R /XYZ 62.69291 201.8236 0 ] /Parent 92 0 R /Prev 104 0 R /Title (Too much other stuff to go into)
 >>
 endobj
 106 0 obj
 <<
-/Count 42 /Dest [ 25 0 R /XYZ 62.69291 627.0236 0 ] /First 107 0 R /Last 148 0 R /Next 149 0 R /Parent 89 0 R 
+/Count 42 /Dest [ 27 0 R /XYZ 62.69291 717.0236 0 ] /First 107 0 R /Last 148 0 R /Next 149 0 R /Parent 89 0 R 
   /Prev 92 0 R /Title (Part 2: Ruby)
 >>
 endobj
 107 0 obj
 <<
-/Dest [ 25 0 R /XYZ 62.69291 452.6836 0 ] /Next 108 0 R /Parent 106 0 R /Title (Why did I learn Ruby?)
+/Dest [ 27 0 R /XYZ 62.69291 552.9874 0 ] /Next 108 0 R /Parent 106 0 R /Title (Why did I learn Ruby?)
 >>
 endobj
 108 0 obj
 <<
-/Dest [ 25 0 R /XYZ 62.69291 374.6836 0 ] /Next 109 0 R /Parent 106 0 R /Prev 107 0 R /Title (Caveat: I use Rails)
+/Dest [ 27 0 R /XYZ 62.69291 474.9874 0 ] /Next 109 0 R /Parent 106 0 R /Prev 107 0 R /Title (Caveat: I use Rails)
 >>
 endobj
 109 0 obj
 <<
-/Dest [ 25 0 R /XYZ 62.69291 272.6836 0 ] /Next 110 0 R /Parent 106 0 R /Prev 108 0 R /Title (Matz)
+/Dest [ 27 0 R /XYZ 62.69291 372.9874 0 ] /Next 110 0 R /Parent 106 0 R /Prev 108 0 R /Title (Matz)
 >>
 endobj
 110 0 obj
 <<
-/Dest [ 25 0 R /XYZ 62.69291 188.6836 0 ] /Next 111 0 R /Parent 106 0 R /Prev 109 0 R /Title (Ruby's inspirations)
+/Dest [ 27 0 R /XYZ 62.69291 288.9874 0 ] /Next 111 0 R /Parent 106 0 R /Prev 109 0 R /Title (Ruby's inspirations)
 >>
 endobj
 111 0 obj
 <<
-/Dest [ 28 0 R /XYZ 62.69291 765.0236 0 ] /Next 112 0 R /Parent 106 0 R /Prev 110 0 R /Title (Origins: Ruby's lisp features)
+/Dest [ 27 0 R /XYZ 62.69291 180.9874 0 ] /Next 112 0 R /Parent 106 0 R /Prev 110 0 R /Title (Origins: Ruby's lisp features)
 >>
 endobj
 112 0 obj
 <<
-/Dest [ 28 0 R /XYZ 62.69291 537.0236 0 ] /Next 113 0 R /Parent 106 0 R /Prev 111 0 R /Title (Why do I say I only "quite" like Ruby?)
+/Dest [ 28 0 R /XYZ 62.69291 633.0236 0 ] /Next 113 0 R /Parent 106 0 R /Prev 111 0 R /Title (Why do I say I only "quite" like Ruby?)
 >>
 endobj
 113 0 obj
 <<
-/Dest [ 28 0 R /XYZ 62.69291 381.0236 0 ] /Next 114 0 R /Parent 106 0 R /Prev 112 0 R /Title (Readability / writability)
+/Dest [ 28 0 R /XYZ 62.69291 477.0236 0 ] /Next 114 0 R /Parent 106 0 R /Prev 112 0 R /Title (Readability / writability)
 >>
 endobj
 114 0 obj
 <<
-/Dest [ 28 0 R /XYZ 62.69291 303.0236 0 ] /Next 115 0 R /Parent 106 0 R /Prev 113 0 R /Title (Synonyms and extra methods)
+/Dest [ 28 0 R /XYZ 62.69291 399.0236 0 ] /Next 115 0 R /Parent 106 0 R /Prev 113 0 R /Title (Synonyms and extra methods)
 >>
 endobj
 115 0 obj
 <<
-/Dest [ 29 0 R /XYZ 62.69291 765.0236 0 ] /Next 116 0 R /Parent 106 0 R /Prev 114 0 R /Title (Begin and end and things)
+/Dest [ 28 0 R /XYZ 62.69291 204.6236 0 ] /Next 116 0 R /Parent 106 0 R /Prev 114 0 R /Title (Begin and end and things)
 >>
 endobj
 116 0 obj
 <<
-/Dest [ 29 0 R /XYZ 62.69291 492.6236 0 ] /Next 117 0 R /Parent 106 0 R /Prev 115 0 R /Title (Line continuation)
+/Dest [ 29 0 R /XYZ 62.69291 623.8236 0 ] /Next 117 0 R /Parent 106 0 R /Prev 115 0 R /Title (Line continuation)
 >>
 endobj
 117 0 obj
 <<
-/Dest [ 29 0 R /XYZ 62.69291 242.2236 0 ] /Next 118 0 R /Parent 106 0 R /Prev 116 0 R /Title (Strongly object oriented, but easy to use...)
+/Dest [ 29 0 R /XYZ 62.69291 373.4236 0 ] /Next 118 0 R /Parent 106 0 R /Prev 116 0 R /Title (Strongly object oriented, but easy to use...)
 >>
 endobj
 118 0 obj
 <<
-/Dest [ 29 0 R /XYZ 62.69291 194.2236 0 ] /Next 119 0 R /Parent 106 0 R /Prev 117 0 R /Title (What do we mean by "Object Oriented"?)
+/Dest [ 29 0 R /XYZ 62.69291 325.4236 0 ] /Next 119 0 R /Parent 106 0 R /Prev 117 0 R /Title (What do we mean by "Object Oriented"?)
 >>
 endobj
 119 0 obj
 <<
-/Dest [ 34 0 R /XYZ 62.69291 381.0236 0 ] /Next 120 0 R /Parent 106 0 R /Prev 118 0 R /Title (Ruby still feels like a multi-paradigm language)
+/Dest [ 34 0 R /XYZ 62.69291 459.0236 0 ] /Next 120 0 R /Parent 106 0 R /Prev 118 0 R /Title (Ruby still feels like a multi-paradigm language)
 >>
 endobj
 120 0 obj
 <<
-/Dest [ 34 0 R /XYZ 62.69291 177.8236 0 ] /Next 121 0 R /Parent 106 0 R /Prev 119 0 R /Title (No self)
+/Dest [ 34 0 R /XYZ 62.69291 255.8236 0 ] /Next 121 0 R /Parent 106 0 R /Prev 119 0 R /Title (No self)
 >>
 endobj
 121 0 obj
 <<
-/Dest [ 36 0 R /XYZ 62.69291 729.0236 0 ] /Next 122 0 R /Parent 106 0 R /Prev 120 0 R /Title (Object values)
+/Dest [ 36 0 R /XYZ 62.69291 765.0236 0 ] /Next 122 0 R /Parent 106 0 R /Prev 120 0 R /Title (Object values)
 >>
 endobj
 122 0 obj
 <<
-/Dest [ 36 0 R /XYZ 62.69291 621.0236 0 ] /Next 123 0 R /Parent 106 0 R /Prev 121 0 R /Title (Readonly values)
+/Dest [ 36 0 R /XYZ 62.69291 657.0236 0 ] /Next 123 0 R /Parent 106 0 R /Prev 121 0 R /Title (Readonly values)
 >>
 endobj
 123 0 obj
 <<
-/Dest [ 36 0 R /XYZ 62.69291 384.6236 0 ] /Next 124 0 R /Parent 106 0 R /Prev 122 0 R /Title (Writable values)
+/Dest [ 36 0 R /XYZ 62.69291 420.6236 0 ] /Next 124 0 R /Parent 106 0 R /Prev 122 0 R /Title (Writable values)
 >>
 endobj
 124 0 obj
@@ -986,13 +986,13 @@ endobj
 endobj
 151 0 obj
 <<
-/Count 20 /Kids [ 12 0 R 15 0 R 19 0 R 21 0 R 25 0 R 28 0 R 29 0 R 34 0 R 36 0 R 38 0 R 
+/Count 20 /Kids [ 14 0 R 15 0 R 20 0 R 21 0 R 27 0 R 28 0 R 29 0 R 34 0 R 36 0 R 38 0 R 
   40 0 R 42 0 R 45 0 R 47 0 R 49 0 R 51 0 R 55 0 R 60 0 R 73 0 R 86 0 R ] /Type /Pages
 >>
 endobj
 152 0 obj
 <<
-/Length 4594
+/Length 5301
 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
@@ -1082,83 +1082,74 @@ BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Part 1: Python) Tj T* ET
 Q
 Q
 q
-1 0 0 1 206.4378 382.8236 cm
+1 0 0 1 250.6488 438.6691 cm
 q
-182.4 0 0 115.2 0 0 cm
+93.97795 0 0 59.3545 0 0 cm
 /FormXob.e3f733218dcd91bac6c7ff8f9716b0ec Do
 Q
 Q
 q
-1 0 0 1 62.69291 364.8236 cm
+1 0 0 1 62.69291 420.6691 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (The Python logo is a trademark of the Python Software Foundation) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 334.8236 cm
+1 0 0 1 62.69291 390.6691 cm
 q
 BT 1 0 0 1 0 14 Tm .949398 Tw 12 TL /F1 10 Tf 0 0 0 rg (Some of the material here is borrowed from my own ) Tj 0 0 .501961 rg (An amble through some of Python's history) Tj 0 0 0 rg (, which) Tj T* 0 Tw (talks about the history of Python \(and its features\) from the early days until Python 3.6.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 304.8236 cm
+1 0 0 1 62.69291 360.6691 cm
 q
 BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Finding Python) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 274.8236 cm
+1 0 0 1 62.69291 330.6691 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .291567 Tw (I don't remember exactly when I first found Python, but my first dated Python script is from 1994, and that) Tj T* 0 Tw (would fit, as it is when Python 1.0 and 1.1 were released.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 244.8236 cm
+1 0 0 1 62.69291 300.6691 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.577485 Tw (My background had been with BCPL, Fortran and C \(and also Emacs Lisp and TeX/LaTeX and VMS) Tj T* 0 Tw (DCL\).) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 166.8236 cm
+1 0 0 1 62.69291 222.6691 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 62 Tm /F1 10 Tf 12 TL .91811 Tw (Work had tasked me with looking for a programming language we could embed into our object oriented) Tj T* 0 Tw .415542 Tw (database. At that time, the obvious choices were things like Tcl and various small lisps or schemes. But I) Tj T* 0 Tw .955988 Tw (also found Python, and fell in love with it, in large part because it was what I already wrote down when) Tj T* 0 Tw .801567 Tw (writing pseudo-code \(with the exception of the colons - more on them later too\). It also had much of the) Tj T* 0 Tw 2.241318 Tw (feel I had liked from using VMS DCL \(Digital Command Language - a relatively sophisticated Basic) Tj T* 0 Tw (descendant, with close integration with the operating system\).) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 136.8236 cm
+1 0 0 1 62.69291 192.6691 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .244987 Tw (As it happened, we didn't choose any of my found languages \(we ended up with a simplified Pascal clone) Tj T* 0 Tw (from Byte magazine\), and I think at the time we would have thought Python was too much work to embed.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 118.8236 cm
+1 0 0 1 62.69291 174.6691 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (\(For reference, Java 1.0 is 1995, as is Ruby 0.95. Perl 1.0 was released in 1987\)) Tj T* ET
 Q
 Q
- 
-endstream
-endobj
-153 0 obj
-<<
-/Length 5541
->>
-stream
-1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
-1 0 0 1 62.69291 747.0236 cm
+1 0 0 1 62.69291 144.6691 cm
 q
 BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Significant indentation, and the aim to be readable) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 701.8236 cm
+1 0 0 1 62.69291 99.46913 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -1187,176 +1178,176 @@ Q
 Q
 Q
 Q
+ 
+endstream
+endobj
+153 0 obj
+<<
+/Length 5782
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
-1 0 0 1 62.69291 669.8236 cm
+1 0 0 1 62.69291 741.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 2.261412 Tw (I'd already seen the use of significant indentation in the occam programming language, some years) Tj T* 0 Tw (before, although I'd never used that language.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 639.8236 cm
+1 0 0 1 62.69291 711.0236 cm
 q
 BT 1 0 0 1 0 14 Tm .088988 Tw 12 TL /F1 10 Tf 0 0 0 rg (When writing pseudocode for myself, of course, I didn't see any need for ) Tj /F5 10 Tf (begin) Tj /F1 10 Tf ( and ) Tj /F5 10 Tf (end) Tj /F1 10 Tf ( \(or ) Tj /F5 10 Tf (${) Tj /F1 10 Tf ( and ) Tj /F5 10 Tf (}) Tj /F1 10 Tf (, or,) Tj T* 0 Tw (most horrible of all ) Tj /F5 10 Tf ({}) Tj /F1 10 Tf ( and ) Tj /F5 10 Tf (}) Tj /F1 10 Tf (\), but naturally just indented the code and left it at that.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 621.8236 cm
+1 0 0 1 62.69291 693.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (So when I say Python, that aspect of it just seemed natural.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 591.8236 cm
+1 0 0 1 62.69291 663.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .876098 Tw (Also the decision, in general, to be relatively unadventurous in syntax made it easy to read and easy to) Tj T* 0 Tw (learn \(remember Python was also a somewhat smaller language in the 1990s\).) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 573.8236 cm
+1 0 0 1 62.69291 645.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (As someone coined, Python is "runnable pseudocode".) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 555.8236 cm
+1 0 0 1 62.69291 627.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (\(and I like the colons\)) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 501.8236 cm
+1 0 0 1 62.69291 573.0236 cm
 q
 BT 1 0 0 1 0 38 Tm -0.02064 Tw 12 TL /F1 10 Tf 0 0 0 rg (Of course, when I read further I discovered that Guido van Rossum had deliberately decided to emphasise) Tj T* 0 Tw 1.124985 Tw /F3 10 Tf (readability) Tj /F1 10 Tf ( as being valuable, even if that added a little more burden when writing code. The reasoning) Tj T* 0 Tw .118735 Tw (being that programs are communication, to other human beings as much as computers, and so we should) Tj T* 0 Tw (do as much to make that communcation easy and pleasant as we can.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 471.8236 cm
+1 0 0 1 62.69291 543.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .864104 Tw (Being readable may also be important to the original programmer when they come back to the code six) Tj T* 0 Tw (months later.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 441.8236 cm
+1 0 0 1 62.69291 513.0236 cm
 q
 BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Multi-paradigm) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 423.8236 cm
+1 0 0 1 62.69291 495.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (The language is object oriented. But the programs do not need to be.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 405.8236 cm
+1 0 0 1 62.69291 477.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (\(Discuss\)) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 375.8236 cm
+1 0 0 1 62.69291 447.0236 cm
 q
 BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (High level datastructures built in) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 357.8236 cm
+1 0 0 1 62.69291 429.0236 cm
 q
 BT 1 0 0 1 0 2 Tm 12 TL /F3 10 Tf 0 0 0 rg (So boring) Tj /F1 10 Tf ( to have to rewrite these again and again in C or whatever.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 339.8236 cm
+1 0 0 1 62.69291 411.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Arrays, dictionaries \(maps or hashes\), other sorts of collection.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 321.8236 cm
+1 0 0 1 62.69291 393.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (\(although proper sets not until 2.3 in 2003\)) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 291.8236 cm
+1 0 0 1 62.69291 363.0236 cm
 q
 BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Dictionaries all the way down) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 261.8236 cm
+1 0 0 1 62.69291 333.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL -0.071265 Tw (OK, that's not strictly true, but dictionaries are definitely a fundamental concept in Python, and many things) Tj T* 0 Tw (either used to be dictionaries or act almost as if they are still dictionaries.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 243.8236 cm
+1 0 0 1 62.69291 315.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (And the dictionaries are efficient enough that they're a good choice for many tasks.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 213.8236 cm
+1 0 0 1 62.69291 285.0236 cm
 q
 BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Python is malleable) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 171.8236 cm
+1 0 0 1 62.69291 243.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL -0.058682 Tw (Metaprogramming in Python was always easier than many other languages, and it has been improved and) Tj T* 0 Tw 2.240651 Tw (simplified over several decades, to make the common cases easier to do and \(especially\) easier to) Tj T* 0 Tw (understand.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 141.8236 cm
+1 0 0 1 62.69291 213.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .918171 Tw (I really love the fact that Python is so malleable - you can get at and alter the behaviour of Python to a) Tj T* 0 Tw (remarkable extent, using Python itself.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 123.8236 cm
+1 0 0 1 62.69291 195.0236 cm
 q
 BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (I also love that, mostly, Python programmers ) Tj /F3 10 Tf (don't do this) Tj /F1 10 Tf ( - we're a relatively conservative lot.) Tj T* ET
 Q
 Q
- 
-endstream
-endobj
-154 0 obj
-<<
-/Length 6816
->>
-stream
-1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
-1 0 0 1 62.69291 747.0236 cm
+1 0 0 1 62.69291 165.0236 cm
 q
 BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Values or methods?) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 729.0236 cm
+1 0 0 1 62.69291 147.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (I love the fact that you can start with a value:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 683.8236 cm
+1 0 0 1 62.69291 101.8236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -1387,15 +1378,24 @@ Q
 Q
 Q
 Q
+ 
+endstream
+endobj
+154 0 obj
+<<
+/Length 6750
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
-1 0 0 1 62.69291 651.8236 cm
+1 0 0 1 62.69291 741.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.179461 Tw (and later on realise that this actually needs to be a method, and change it without the user needing to) Tj T* 0 Tw (change their own code:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 546.6236 cm
+1 0 0 1 62.69291 635.8236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -1445,91 +1445,91 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 514.6236 cm
+1 0 0 1 62.69291 603.8236 cm
 q
 BT 1 0 0 1 0 14 Tm 1.303322 Tw 12 TL /F1 10 Tf 0 0 0 rg (I also love the fact that this is now much easier to do \(using ) Tj /F5 10 Tf (@property) Tj /F1 10 Tf (\) than it used to be in earlier) Tj T* 0 Tw (versions of Python.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 484.6236 cm
+1 0 0 1 62.69291 573.8236 cm
 q
 BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg ("Safe and sane") Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 454.6236 cm
+1 0 0 1 62.69291 543.8236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL -0.015726 Tw (Python programmers do not have a reputation for being wild and wacky in their code - I think this is a good) Tj T* 0 Tw (thing!) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 424.6236 cm
+1 0 0 1 62.69291 513.8236 cm
 q
 BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Batteries included) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 406.6236 cm
+1 0 0 1 62.69291 495.8236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Really - compare with the other languages I was used to.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 388.6236 cm
+1 0 0 1 62.69291 477.8236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (\(although it should be said that this is true for Ruby as well\)) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 358.6236 cm
+1 0 0 1 62.69291 447.8236 cm
 q
 BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (The community and a gentle sense of humour) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 340.6236 cm
+1 0 0 1 62.69291 429.8236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Not, by any means, unique to Python.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 298.6236 cm
+1 0 0 1 62.69291 387.8236 cm
 q
 BT 1 0 0 1 0 26 Tm 1.132927 Tw 12 TL /F1 10 Tf 0 0 0 rg (As one example, when a new \(and more sophisitcated\) form of ) Tj /F5 10 Tf (import) Tj /F1 10 Tf ( was being tried out \(in Python) Tj T* 0 Tw 1.139431 Tw (1.3\), the command to enable it was ) Tj /F5 10 Tf (import) Tj ( ) Tj (ni) Tj /F1 10 Tf (. ) Tj /F5 10 Tf (ni) Tj /F1 10 Tf ( obviously stands for "new import", but was also a) Tj T* 0 Tw (reference to ") Tj /F3 10 Tf (the Knights who say Ni) Tj /F1 10 Tf (" from the film "Monty Python and the Holy Grail".) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 256.6236 cm
+1 0 0 1 62.69291 345.8236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL -0.030012 Tw (There was also a long running joke about Guido's time machine, which enabled him to go back in time and) Tj T* 0 Tw .127356 Tw (implement a new language feature that people had just asked for \(in real life, not realising that it had been) Tj T* 0 Tw (there all along\).) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 238.6236 cm
+1 0 0 1 62.69291 327.8236 cm
 q
 BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (See ) Tj 0 0 .501961 rg (An amble through some of Python's history) Tj 0 0 0 rg ( for some other examples.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 220.6236 cm
+1 0 0 1 62.69291 309.8236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Also:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 214.6236 cm
+1 0 0 1 62.69291 303.8236 cm
 Q
 q
-1 0 0 1 62.69291 214.6236 cm
+1 0 0 1 62.69291 303.8236 cm
 Q
 q
-1 0 0 1 62.69291 118.6236 cm
+1 0 0 1 62.69291 207.8236 cm
 q
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
@@ -1582,49 +1582,30 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 112.6236 cm
+1 0 0 1 62.69291 201.8236 cm
 Q
 q
-1 0 0 1 62.69291 94.62362 cm
+1 0 0 1 62.69291 153.8236 cm
 q
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
-1 0 0 1 6 3 cm
+1 0 0 1 6 33 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
 Q
 Q
 q
-1 0 0 1 23 3 cm
+1 0 0 1 23 33 cm
 q
 0 0 .501961 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (https://pyos.github.io/dg/) Tj T* ET
 Q
 Q
 q
-1 0 0 1 23 -3 cm
+1 0 0 1 23 27 cm
 Q
-q
-Q
-Q
-Q
- 
-endstream
-endobj
-155 0 obj
-<<
-/Length 15034
->>
-stream
-1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
-q
-1 0 0 1 62.69291 735.0236 cm
-q
-0 0 0 rg
-BT /F1 10 Tf 12 TL ET
-BT 1 0 0 1 6 17 Tm  T* ET
 q
 1 0 0 1 23 -3 cm
 q
@@ -1657,10 +1638,10 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 729.0236 cm
+1 0 0 1 62.69291 147.8236 cm
 Q
 q
-1 0 0 1 62.69291 699.0236 cm
+1 0 0 1 62.69291 117.8236 cm
 q
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
@@ -1690,57 +1671,66 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 699.0236 cm
+1 0 0 1 62.69291 117.8236 cm
 Q
+ 
+endstream
+endobj
+155 0 obj
+<<
+/Length 14965
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
-1 0 0 1 62.69291 669.0236 cm
+1 0 0 1 62.69291 747.0236 cm
 q
 BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Docstrings - these came later) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 651.0236 cm
+1 0 0 1 62.69291 729.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Docstrings were introduced in Python 1.2 in 1995.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 633.0236 cm
+1 0 0 1 62.69291 711.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (I remember they were first proposed \(I think based on Emacs Lisp\).) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 591.0236 cm
+1 0 0 1 62.69291 669.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .221894 Tw (One of the lovely things about Python is that it was possible to play test them very easily, by just putting a) Tj T* 0 Tw 1.519987 Tw (string in the appropriate place \(a string by itself just "sits there", so that's OK\), and then writing some) Tj T* 0 Tw (Python code to introspect the relevant module, class or method, and retrieve the string.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 549.0236 cm
+1 0 0 1 62.69291 627.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .82186 Tw (I personally much prefer this approach to that of the "magic comment", probably mostly because it feels) Tj T* 0 Tw 4.104983 Tw (natural that the docstring should be accessible via the AST \(Abstract Syntax Tree, the parsed) Tj T* 0 Tw (representation of the program\).) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 519.0236 cm
+1 0 0 1 62.69291 597.0236 cm
 q
 BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (The Zen of Python) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 489.0236 cm
+1 0 0 1 62.69291 567.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .128488 Tw ("The Zen of Python" is a joke by Tim Peters from 1999. It has been incorporated into the Python library as) Tj T* 0 Tw (an easter egg:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 203.8236 cm
+1 0 0 1 62.69291 281.8236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -2084,65 +2074,65 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 183.8236 cm
+1 0 0 1 62.69291 261.8236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (This is a good joke because it is also true \(well, mostly\).) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 165.8236 cm
+1 0 0 1 62.69291 243.8236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (It can also be used as an interesting way to compare other programming languages to Python.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 135.8236 cm
+1 0 0 1 62.69291 213.8236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .023626 Tw (\(I am way too much amused by how the above gets syntax highlighted, but it's also too big to fit on a slide,) Tj T* 0 Tw (so the audience won't see that\)) Tj T* ET
 Q
 Q
- 
-endstream
-endobj
-156 0 obj
-<<
-/Length 4846
->>
-stream
-1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
-1 0 0 1 62.69291 747.0236 cm
+1 0 0 1 62.69291 183.8236 cm
 q
 BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Too much other stuff to go into) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 717.0236 cm
+1 0 0 1 62.69291 153.8236 cm
 q
 BT 1 0 0 1 0 14 Tm .15528 Tw 12 TL /F1 10 Tf 0 0 0 rg (Like ) Tj /F5 10 Tf (f) Tj /F1 10 Tf ( strings, and ) Tj /F5 10 Tf (__repr__) Tj /F1 10 Tf ( versus ) Tj /F5 10 Tf (__str__) Tj /F1 10 Tf (, and numbers with underlines in them \(makes my life a lot) Tj T* 0 Tw (easier\), and ) Tj /F5 10 Tf (mypy) Tj /F1 10 Tf ( typing, and all sorts of other things.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 699.0236 cm
+1 0 0 1 62.69291 135.8236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (But I think they're smaller things than the above, in some difficult-to-measure sense.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 681.0236 cm
+1 0 0 1 62.69291 117.8236 cm
 q
 BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Side note on the ) Tj /F5 10 Tf (mpypy) Tj /F1 10 Tf ( static typing work:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 675.0236 cm
+1 0 0 1 62.69291 111.8236 cm
 Q
+ 
+endstream
+endobj
+156 0 obj
+<<
+/Length 5191
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
-1 0 0 1 62.69291 639.0236 cm
+1 0 0 1 62.69291 729.0236 cm
 q
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
@@ -2159,176 +2149,167 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 639.0236 cm
+1 0 0 1 62.69291 729.0236 cm
 Q
 q
-1 0 0 1 62.69291 606.0236 cm
+1 0 0 1 62.69291 696.0236 cm
 q
 BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Part 2: Ruby) Tj T* ET
 Q
 Q
 q
-1 0 0 1 268.9966 542.6836 cm
+1 0 0 1 274.1433 642.9874 cm
 q
-57.28243 0 0 57.34 0 0 cm
+46.98898 0 0 47.0362 0 0 cm
 /FormXob.c04ac8e6c359185e4b0bc2c56e564d3a Do
 Q
 Q
 q
-1 0 0 1 62.69291 512.6836 cm
+1 0 0 1 62.69291 612.9874 cm
 Q
 q
-1 0 0 1 62.69291 494.6836 cm
+1 0 0 1 62.69291 594.9874 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (The Ruby Logo is Copyright \(c\) 2006, Yukihiro Matsumoto) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 464.6836 cm
+1 0 0 1 62.69291 564.9874 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.61186 Tw (Not everything I say may be exactly true, either because I have a misunderstanding about how Ruby) Tj T* 0 Tw (works, or have misremembered soemthing, or because I'm oversimplifying for the purpose of this talk.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 434.6836 cm
+1 0 0 1 62.69291 534.9874 cm
 q
 BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Why did I learn Ruby?) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 416.6836 cm
+1 0 0 1 62.69291 516.9874 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (It's not an obvious language to learn if you already know Python.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 386.6836 cm
+1 0 0 1 62.69291 486.9874 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .767045 Tw (However, in July 2019, our team at work moved from working on a Python/Django project to working on) Tj T* 0 Tw (projects written using Ruby/Rails.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 356.6836 cm
+1 0 0 1 62.69291 456.9874 cm
 q
 BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Caveat: I use Rails) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 314.6836 cm
+1 0 0 1 62.69291 414.9874 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .052846 Tw (I've learnt Ruby in the Rails context, so my views on the language itself may be as skewed as the views of) Tj T* 0 Tw .26686 Tw (a Python programmer who learnt the language to use Django. In particular, Rails likes "magic" even more) Tj T* 0 Tw (than Django does.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 284.6836 cm
+1 0 0 1 62.69291 384.9874 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.457765 Tw (Also, remember I've only been using Ruby for a short while, and have not seen its history "in action",) Tj T* 0 Tw (whereas for Python I remember the evolution of the language and its environment.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 254.6836 cm
+1 0 0 1 62.69291 354.9874 cm
 q
 BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Matz) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 236.6836 cm
+1 0 0 1 62.69291 336.9874 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Matz is Yukihiro Matsumoto, the creator of Ruby.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 218.6836 cm
+1 0 0 1 62.69291 318.9874 cm
 q
 0 0 .501961 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (https://en.wikipedia.org/wiki/Yukihiro_Matsumoto) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 200.6836 cm
+1 0 0 1 62.69291 300.9874 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (There is a saying in the Ruby community: "Matz is nice so we are nice") Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 170.6836 cm
+1 0 0 1 62.69291 270.9874 cm
 q
 BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Ruby's inspirations) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 140.6836 cm
+1 0 0 1 62.69291 240.9874 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .294985 Tw (Like Python, Ruby is solidly built on well-proven ideas from programming history. Just not the same ideas) Tj T* 0 Tw (as Python.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 122.6836 cm
+1 0 0 1 62.69291 222.9874 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (The main influences are normally given as Smalltalk, Lisp and Perl.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 92.68362 cm
+1 0 0 1 62.69291 192.9874 cm
 q
 BT 1 0 0 1 0 14 Tm -0.010015 Tw 12 TL /F3 10 Tf 0 0 0 rg (Not) Tj /F1 10 Tf ( Python. Matz knew Python well \(I remember seeing him on ) Tj /F5 10 Tf (comp.lang.python) Tj /F1 10 Tf ( back in the day, and) Tj T* 0 Tw (he obviously had a good knowledge of Python\), so this is a conscious choice.) Tj T* ET
 Q
 Q
- 
-endstream
-endobj
-157 0 obj
-<<
-/Length 7486
->>
-stream
-1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
-1 0 0 1 62.69291 747.0236 cm
+1 0 0 1 62.69291 162.9874 cm
 q
 BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Origins: Ruby's ) Tj 0 0 .501961 rg (lisp features) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 729.0236 cm
+1 0 0 1 62.69291 144.9874 cm
 q
 BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (In an email message back in 2006, Matz explained why Ruby has some ) Tj 0 0 .501961 rg (lisp features) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 723.0236 cm
+1 0 0 1 62.69291 138.9874 cm
 Q
 q
-1 0 0 1 62.69291 567.0236 cm
+1 0 0 1 62.69291 84.98742 cm
 q
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 BT 1 0 0 1 0 2 Tm  T* ET
 q
-1 0 0 1 20 144 cm
+1 0 0 1 20 42 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Ruby is a language designed in the following steps:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 20 138 cm
+1 0 0 1 20 36 cm
 Q
 q
-1 0 0 1 20 138 cm
+1 0 0 1 20 36 cm
 Q
 q
-1 0 0 1 20 126 cm
+1 0 0 1 20 24 cm
 q
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
@@ -2351,10 +2332,10 @@ Q
 Q
 Q
 q
-1 0 0 1 20 120 cm
+1 0 0 1 20 18 cm
 Q
 q
-1 0 0 1 20 108 cm
+1 0 0 1 20 6 cm
 q
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
@@ -2377,8 +2358,27 @@ Q
 Q
 Q
 q
-1 0 0 1 20 102 cm
+1 0 0 1 20 0 cm
 Q
+q
+Q
+Q
+Q
+ 
+endstream
+endobj
+157 0 obj
+<<
+/Length 7390
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 663.0236 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
 q
 1 0 0 1 20 90 cm
 q
@@ -2502,75 +2502,75 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 567.0236 cm
+1 0 0 1 62.69291 663.0236 cm
 Q
 q
-1 0 0 1 62.69291 549.0236 cm
+1 0 0 1 62.69291 645.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (\("CL" is Common Lisp, and "CLOS" is the Common Lisp Object System\)) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 519.0236 cm
+1 0 0 1 62.69291 615.0236 cm
 q
 BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Why do I say I only "quite" like Ruby?) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 489.0236 cm
+1 0 0 1 62.69291 585.0236 cm
 q
 BT 1 0 0 1 0 14 Tm .506353 Tw 12 TL /F1 10 Tf 0 0 0 rg (Because I don't really like some of the stylistic choices - it errs a little too much on the magic side for me) Tj T* 0 Tw (\(this is ) Tj /F3 10 Tf (very) Tj /F1 10 Tf ( much a matter of choice!\).) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 435.0236 cm
+1 0 0 1 62.69291 531.0236 cm
 q
 BT 1 0 0 1 0 38 Tm .655898 Tw 12 TL /F1 10 Tf 0 0 0 rg (But there's a lot of stuff I ) Tj /F3 10 Tf (do) Tj /F1 10 Tf ( like, and more importantly, to me, I love the fact that Ruby takes some very) Tj T* 0 Tw 1.645984 Tw (different approaches than Python, in some cases producing what feels like much the same result \(for) Tj T* 0 Tw .10332 Tw (instance, how values are defined\) and in some cases shows paths that Python could not take, but that are) Tj T* 0 Tw (still valuable approaches to explore \(blocks, optional ) Tj /F5 10 Tf (\(\)) Tj /F1 10 Tf ( on calling methods, and so on\).) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 393.0236 cm
+1 0 0 1 62.69291 489.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .932262 Tw (Note: this is meant to be a talk about the things I like in both languages, so don't expect me to look for) Tj T* 0 Tw .367765 Tw (things that I'm not keen on or think could be done better. There is no perfect programming language, and) Tj T* 0 Tw (moreover different programming languages suit different programmers.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 363.0236 cm
+1 0 0 1 62.69291 459.0236 cm
 q
 BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Readability / writability) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 345.0236 cm
+1 0 0 1 62.69291 441.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Python strongly errs toward being readable, even if that makes it slightly harder to write.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 315.0236 cm
+1 0 0 1 62.69291 411.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .639431 Tw (Ruby wants to make programming "a joy for programmers", so it wants code that is easy/fun to write, as) Tj T* 0 Tw (well as easy to read.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 285.0236 cm
+1 0 0 1 62.69291 381.0236 cm
 q
 BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Synonyms and extra methods) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 255.0236 cm
+1 0 0 1 62.69291 351.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .886098 Tw (Ruby is much more likely to add synonyms for things - much less interested in "only one way". Instead,) Tj T* 0 Tw (wants to give the predictable way \(and thus easier to write\). For instance:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 197.8236 cm
+1 0 0 1 62.69291 293.8236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -2608,14 +2608,14 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 177.8236 cm
+1 0 0 1 62.69291 273.8236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (as well as \(the less colloquial\)) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 120.6236 cm
+1 0 0 1 62.69291 216.6236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -2656,36 +2656,27 @@ Q
 Q
 Q
 Q
- 
-endstream
-endobj
-158 0 obj
-<<
-/Length 7776
->>
-stream
-1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
-1 0 0 1 62.69291 747.0236 cm
+1 0 0 1 62.69291 186.6236 cm
 q
 BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Begin and end and things) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 717.0236 cm
+1 0 0 1 62.69291 156.6236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 2.021412 Tw (Ruby doesn't have significant indentation, but it does have decent sane block delineation \(unlike, for) Tj T* 0 Tw (instance, C-derived languages\).) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 699.0236 cm
+1 0 0 1 62.69291 138.6236 cm
 q
 BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (In particular, the ) Tj /F3 10 Tf (end) Tj /F1 10 Tf ( of a block is always indicated by ) Tj /F5 10 Tf (end) Tj /F1 10 Tf (:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 641.8236 cm
+1 0 0 1 62.69291 81.42362 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -2710,8 +2701,17 @@ Q
 Q
 Q
 Q
+ 
+endstream
+endobj
+158 0 obj
+<<
+/Length 8665
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
-1 0 0 1 62.69291 560.6236 cm
+1 0 0 1 62.69291 691.8236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -2745,33 +2745,33 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 540.6236 cm
+1 0 0 1 62.69291 671.8236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (and so on.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 522.6236 cm
+1 0 0 1 62.69291 653.8236 cm
 q
 BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (\(and yes, ) Tj /F5 10 Tf (elsif) Tj /F1 10 Tf ( takes a bit of getting used to for a Python programmer\)) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 504.6236 cm
+1 0 0 1 62.69291 635.8236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Indentation in Ruby is conventionally two spaces.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 474.6236 cm
+1 0 0 1 62.69291 605.8236 cm
 q
 BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Line continuation) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 429.4236 cm
+1 0 0 1 62.69291 560.6236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -2801,21 +2801,21 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 397.4236 cm
+1 0 0 1 62.69291 528.6236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .675988 Tw (If the punctuation on a line indicates an expression is not finished, it continues to the next line. I used to) Tj T* 0 Tw (love this in BCPL.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 379.4236 cm
+1 0 0 1 62.69291 510.6236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (And) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 322.2236 cm
+1 0 0 1 62.69291 453.4236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -2891,51 +2891,51 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 302.2236 cm
+1 0 0 1 62.69291 433.4236 cm
 q
 BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (I think this is a lot more readable than if the ) Tj /F5 10 Tf (.) Tj /F1 10 Tf ( separators/operators had to be at the end of each line.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 272.2236 cm
+1 0 0 1 62.69291 403.4236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .810898 Tw (I say on the slide "I don't think I need to say any more...", because I think Ruby has thought a lot about) Tj T* 0 Tw (how to make this work well, and I don't think it hurts the appearance of the language at all.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 254.2236 cm
+1 0 0 1 62.69291 385.4236 cm
 q
 BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (What it ) Tj /F3 10 Tf (does) Tj /F1 10 Tf ( do is make the grammar more complex.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 224.2236 cm
+1 0 0 1 62.69291 355.4236 cm
 q
 BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Strongly object oriented, but easy to use...) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 206.2236 cm
+1 0 0 1 62.69291 337.4236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (I shall explain over the next few slides) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 176.2236 cm
+1 0 0 1 62.69291 307.4236 cm
 q
 BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (What do we mean by "Object Oriented"?) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 164.2236 cm
+1 0 0 1 62.69291 295.4236 cm
 Q
 q
-1 0 0 1 62.69291 164.2236 cm
+1 0 0 1 62.69291 295.4236 cm
 Q
 q
-1 0 0 1 62.69291 128.2236 cm
+1 0 0 1 62.69291 259.4236 cm
 q
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
@@ -2957,10 +2957,10 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 122.2236 cm
+1 0 0 1 62.69291 253.4236 cm
 Q
 q
-1 0 0 1 62.69291 86.22362 cm
+1 0 0 1 62.69291 217.4236 cm
 q
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
@@ -2982,19 +2982,10 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 80.22362 cm
+1 0 0 1 62.69291 211.4236 cm
 Q
- 
-endstream
-endobj
-159 0 obj
-<<
-/Length 7969
->>
-stream
-1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
-1 0 0 1 62.69291 741.0236 cm
+1 0 0 1 62.69291 187.4236 cm
 q
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
@@ -3016,10 +3007,10 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 735.0236 cm
+1 0 0 1 62.69291 181.4236 cm
 Q
 q
-1 0 0 1 62.69291 711.0236 cm
+1 0 0 1 62.69291 157.4236 cm
 q
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
@@ -3041,10 +3032,10 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 705.0236 cm
+1 0 0 1 62.69291 151.4236 cm
 Q
 q
-1 0 0 1 62.69291 681.0236 cm
+1 0 0 1 62.69291 127.4236 cm
 q
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
@@ -3066,10 +3057,10 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 675.0236 cm
+1 0 0 1 62.69291 121.4236 cm
 Q
 q
-1 0 0 1 62.69291 651.0236 cm
+1 0 0 1 62.69291 97.42362 cm
 q
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
@@ -3091,10 +3082,19 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 645.0236 cm
+1 0 0 1 62.69291 91.42362 cm
 Q
+ 
+endstream
+endobj
+159 0 obj
+<<
+/Length 7108
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
-1 0 0 1 62.69291 609.0236 cm
+1 0 0 1 62.69291 729.0236 cm
 q
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
@@ -3116,10 +3116,10 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 603.0236 cm
+1 0 0 1 62.69291 723.0236 cm
 Q
 q
-1 0 0 1 62.69291 567.0236 cm
+1 0 0 1 62.69291 687.0236 cm
 q
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
@@ -3141,10 +3141,10 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 561.0236 cm
+1 0 0 1 62.69291 681.0236 cm
 Q
 q
-1 0 0 1 62.69291 537.0236 cm
+1 0 0 1 62.69291 657.0236 cm
 q
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
@@ -3166,76 +3166,141 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 537.0236 cm
+1 0 0 1 62.69291 657.0236 cm
 Q
 q
-1 0 0 1 62.69291 519.0236 cm
+1 0 0 1 62.69291 639.0236 cm
 q
 BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg ("an a la carte menu" - ) Tj 0 0 .501961 rg (Jonathan Rees on the meaning of Object-Oriented) Tj 0 0 0 rg ( \(2001\)) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 501.0236 cm
+1 0 0 1 62.69291 621.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (He has Java as {1,2,3,7,8,9}, and Lisp as {3,4,5,7}) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 483.0236 cm
+1 0 0 1 62.69291 603.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Simula-67 was {1,3,7,9} and he says "many people take this as a definition of OO".) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 453.0236 cm
+1 0 0 1 62.69291 585.0236 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .533318 Tw (By my \(quick and maybe wrong\) reckoning, Python is {3,4,5,7,8,9} while Ruby is {3,4,5,6,7,8,9} - readers) Tj T* 0 Tw (may be inerested in working this out for themselves.) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (By my \(quick and maybe wrong\) reckoning,) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 423.0236 cm
+1 0 0 1 62.69291 579.0236 cm
+Q
+q
+1 0 0 1 62.69291 579.0236 cm
+Q
+q
+1 0 0 1 62.69291 567.0236 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Python is {3,4,5,7,8,9}, while) Tj T* ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 561.0236 cm
+Q
+q
+1 0 0 1 62.69291 549.0236 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Ruby is {3,4,5,**6**,7,8,9}) Tj T* ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 549.0236 cm
+Q
+q
+1 0 0 1 62.69291 531.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (... readers may be inerested in working this out for themselves.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 501.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .398735 Tw (Incidentally, while never formally part of the definition of OO, many people \(particularly in the early years\)) Tj T* 0 Tw (would also include Garbage Collection.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 393.0236 cm
+1 0 0 1 62.69291 471.0236 cm
 q
 BT 1 0 0 1 0 14 Tm 1.310751 Tw 12 TL /F1 10 Tf 0 0 0 rg (The wikipedia page on ) Tj 0 0 .501961 rg (Object-oriented programming) Tj 0 0 0 rg ( regards Ruby as a "pure" OO language, whereas) Tj T* 0 Tw (Python is designed mainly as OO, with some procedural elements.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 363.0236 cm
+1 0 0 1 62.69291 441.0236 cm
 q
 BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Ruby still feels like a multi-paradigm language) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 321.0236 cm
+1 0 0 1 62.69291 399.0236 cm
 q
 BT 1 0 0 1 0 26 Tm .987485 Tw 12 TL /F1 10 Tf 0 0 0 rg (While everything is an object, and modules and classes are the only constructs to create objects, Ruby) Tj T* 0 Tw .856098 Tw (does actually allow you to write simple linear scripts \(with no mention of ) Tj /F5 10 Tf (module) Tj /F1 10 Tf ( or ) Tj /F5 10 Tf (class) Tj /F1 10 Tf (, or even the) Tj T* 0 Tw (need to define a method\).) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 303.0236 cm
+1 0 0 1 62.69291 381.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (And methods can \(apparently\) be declared at the top level.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 285.0236 cm
+1 0 0 1 62.69291 363.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (So this is a perfectly good Ruby program:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 239.8236 cm
+1 0 0 1 62.69291 317.8236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -3263,47 +3328,53 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 219.8236 cm
+1 0 0 1 62.69291 297.8236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (I like that Ruby goes out of its way to make this possible, because it makes life better for the programmer.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 189.8236 cm
+1 0 0 1 62.69291 267.8236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.31332 Tw (\(It's actually doing things with methods and classes and modules for you, but it's not making you do it) Tj T* 0 Tw (yourself if you don't want to.\)) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 159.8236 cm
+1 0 0 1 62.69291 237.8236 cm
 q
 BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (No self) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 141.8236 cm
+1 0 0 1 62.69291 219.8236 cm
 q
 BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (This is for information, not because I'm keen on it. I ) Tj /F3 10 Tf (like) Tj /F1 10 Tf ( explicit ) Tj /F5 10 Tf (self) Tj /F1 10 Tf (. But lots of people don't.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 123.8236 cm
+1 0 0 1 62.69291 201.8236 cm
 q
 BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Like many mainstream OO languages, it is not necessary to say ) Tj /F5 10 Tf (self) Tj /F1 10 Tf ( in almost all cases.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 105.8236 cm
+1 0 0 1 62.69291 183.8236 cm
 q
 BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (The Ruby Style Guide) Tj 0 0 0 rg ( says "Avoid ) Tj /F5 10 Tf (self) Tj /F1 10 Tf ( where not required.") Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 87.82362 cm
+1 0 0 1 62.69291 165.8236 cm
 q
 BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (\() Tj 0 0 .501961 rg (The Ruby Style Guide) Tj 0 0 0 rg ( is rather wonderful - I recommend it.\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 135.8236 cm
+q
+BT 1 0 0 1 0 14 Tm .895777 Tw 12 TL /F1 10 Tf 0 0 0 rg (Use of ) Tj /F5 10 Tf (@) Tj /F1 10 Tf ( to indicate equivalent of ) Tj /F5 10 Tf (self.) Tj /F1 10 Tf ( for values ) Tj /F3 10 Tf (inside) Tj /F1 10 Tf ( methods of the same class. But seems to be) Tj T* 0 Tw (only when necessary, otherwise just use the accessor methods.) Tj T* ET
 Q
 Q
  
@@ -3311,37 +3382,31 @@ endstream
 endobj
 160 0 obj
 <<
-/Length 10174
+/Length 9798
 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
-1 0 0 1 62.69291 741.0236 cm
-q
-BT 1 0 0 1 0 14 Tm .895777 Tw 12 TL /F1 10 Tf 0 0 0 rg (Use of ) Tj /F5 10 Tf (@) Tj /F1 10 Tf ( to indicate equivalent of ) Tj /F5 10 Tf (self.) Tj /F1 10 Tf ( for values ) Tj /F3 10 Tf (inside) Tj /F1 10 Tf ( methods of the same class. But seems to be) Tj T* 0 Tw (only when necessary, otherwise just use the accessor methods.) Tj T* ET
-Q
-Q
-q
-1 0 0 1 62.69291 711.0236 cm
+1 0 0 1 62.69291 747.0236 cm
 q
 BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Object values) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 681.0236 cm
+1 0 0 1 62.69291 717.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .305251 Tw (Ruby uses setter and getter methods for \(almost\) all value access, but it makes it so easy to create those) Tj T* 0 Tw (that you don't really think about it.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 675.0236 cm
+1 0 0 1 62.69291 711.0236 cm
 Q
 q
-1 0 0 1 62.69291 675.0236 cm
+1 0 0 1 62.69291 711.0236 cm
 Q
 q
-1 0 0 1 62.69291 663.0236 cm
+1 0 0 1 62.69291 699.0236 cm
 q
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
@@ -3363,10 +3428,10 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 657.0236 cm
+1 0 0 1 62.69291 693.0236 cm
 Q
 q
-1 0 0 1 62.69291 633.0236 cm
+1 0 0 1 62.69291 669.0236 cm
 q
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
@@ -3388,16 +3453,16 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 633.0236 cm
+1 0 0 1 62.69291 669.0236 cm
 Q
 q
-1 0 0 1 62.69291 603.0236 cm
+1 0 0 1 62.69291 639.0236 cm
 q
 BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Readonly values) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 497.8236 cm
+1 0 0 1 62.69291 533.8236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -3459,7 +3524,7 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 416.6236 cm
+1 0 0 1 62.69291 452.6236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -3539,19 +3604,19 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 396.6236 cm
+1 0 0 1 62.69291 432.6236 cm
 q
 BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (To do this in Python, we'd need to use ) Tj /F5 10 Tf (@property) Tj /F1 10 Tf (.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 366.6236 cm
+1 0 0 1 62.69291 402.6236 cm
 q
 BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Writable values) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 213.4236 cm
+1 0 0 1 62.69291 249.4236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -3655,7 +3720,7 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 181.4236 cm
+1 0 0 1 62.69291 217.4236 cm
 q
 BT 1 0 0 1 0 14 Tm 1.073735 Tw 12 TL /F1 10 Tf 0 0 0 rg (To do this in Python, we'd simply set the values as ) Tj /F5 10 Tf (self.width) Tj /F1 10 Tf ( and ) Tj /F5 10 Tf (self.height) Tj /F1 10 Tf ( in our ) Tj /F5 10 Tf (__init__) Tj /F1 10 Tf  T* 0 Tw (method.) Tj T* ET
 Q
@@ -7711,190 +7776,190 @@ xref
 0000023781 00000 n 
 0000031667 00000 n 
 0000031858 00000 n 
-0000032172 00000 n 
-0000032283 00000 n 
+0000031969 00000 n 
+0000032075 00000 n 
 0000032389 00000 n 
 0000032597 00000 n 
 0000032788 00000 n 
 0000032984 00000 n 
 0000033163 00000 n 
-0000033404 00000 n 
-0000033581 00000 n 
-0000033808 00000 n 
-0000236336 00000 n 
-0000261470 00000 n 
-0000261671 00000 n 
-0000261962 00000 n 
-0000262181 00000 n 
-0000262400 00000 n 
-0000262634 00000 n 
-0000262842 00000 n 
-0000263039 00000 n 
-0000263249 00000 n 
-0000263426 00000 n 
-0000263603 00000 n 
-0000263851 00000 n 
-0000263965 00000 n 
-0000264173 00000 n 
-0000264350 00000 n 
-0000264577 00000 n 
-0000264772 00000 n 
-0000264999 00000 n 
-0000265176 00000 n 
-0000265403 00000 n 
-0000265580 00000 n 
-0000265807 00000 n 
-0000266041 00000 n 
-0000266258 00000 n 
-0000266485 00000 n 
-0000266662 00000 n 
-0000266889 00000 n 
-0000267089 00000 n 
-0000267316 00000 n 
-0000267493 00000 n 
-0000267688 00000 n 
-0000267860 00000 n 
-0000268101 00000 n 
-0000268317 00000 n 
-0000268489 00000 n 
-0000268705 00000 n 
-0000268882 00000 n 
-0000269130 00000 n 
-0000269304 00000 n 
-0000269478 00000 n 
-0000269653 00000 n 
-0000269849 00000 n 
-0000270029 00000 n 
-0000270248 00000 n 
-0000270421 00000 n 
-0000270619 00000 n 
-0000272677 00000 n 
-0000272931 00000 n 
-0000273130 00000 n 
-0000273329 00000 n 
-0000273683 00000 n 
-0000273895 00000 n 
-0000274086 00000 n 
-0000274295 00000 n 
-0000274494 00000 n 
-0000274714 00000 n 
-0000274902 00000 n 
-0000275081 00000 n 
-0000275276 00000 n 
-0000275548 00000 n 
-0000275734 00000 n 
-0000275944 00000 n 
-0000276135 00000 n 
-0000276442 00000 n 
-0000276550 00000 n 
-0000276846 00000 n 
-0000276922 00000 n 
-0000277044 00000 n 
-0000277178 00000 n 
-0000277349 00000 n 
-0000277465 00000 n 
-0000277631 00000 n 
-0000277760 00000 n 
-0000277909 00000 n 
-0000278053 00000 n 
-0000278187 00000 n 
-0000278321 00000 n 
-0000278453 00000 n 
-0000278589 00000 n 
-0000278749 00000 n 
-0000278896 00000 n 
-0000279031 00000 n 
-0000279166 00000 n 
-0000279337 00000 n 
-0000279463 00000 n 
-0000279601 00000 n 
-0000279724 00000 n 
-0000279862 00000 n 
-0000280010 00000 n 
-0000280167 00000 n 
-0000280311 00000 n 
-0000280456 00000 n 
-0000280599 00000 n 
-0000280735 00000 n 
-0000280898 00000 n 
-0000281054 00000 n 
-0000281220 00000 n 
-0000281346 00000 n 
-0000281478 00000 n 
-0000281612 00000 n 
-0000281746 00000 n 
-0000281883 00000 n 
-0000282036 00000 n 
-0000282162 00000 n 
-0000282304 00000 n 
-0000282447 00000 n 
-0000282572 00000 n 
-0000282716 00000 n 
-0000282846 00000 n 
-0000282971 00000 n 
-0000283121 00000 n 
-0000283255 00000 n 
-0000283412 00000 n 
-0000283556 00000 n 
-0000283691 00000 n 
-0000283824 00000 n 
-0000283961 00000 n 
-0000284099 00000 n 
-0000284249 00000 n 
-0000284388 00000 n 
-0000284530 00000 n 
-0000284662 00000 n 
-0000284819 00000 n 
-0000284999 00000 n 
-0000285121 00000 n 
-0000285237 00000 n 
-0000285392 00000 n 
-0000285512 00000 n 
-0000285711 00000 n 
-0000290358 00000 n 
-0000295952 00000 n 
-0000302821 00000 n 
-0000317909 00000 n 
-0000322808 00000 n 
-0000330347 00000 n 
-0000338176 00000 n 
-0000346198 00000 n 
-0000356426 00000 n 
-0000365345 00000 n 
-0000371874 00000 n 
-0000386052 00000 n 
-0000392645 00000 n 
-0000401704 00000 n 
-0000408353 00000 n 
-0000416098 00000 n 
-0000423780 00000 n 
-0000436944 00000 n 
-0000451831 00000 n 
-0000460786 00000 n 
-0000461038 00000 n 
-0000461073 00000 n 
-0000461108 00000 n 
-0000461143 00000 n 
-0000461178 00000 n 
-0000461213 00000 n 
-0000461248 00000 n 
-0000461283 00000 n 
-0000461318 00000 n 
-0000461353 00000 n 
-0000461389 00000 n 
-0000461425 00000 n 
-0000461461 00000 n 
-0000461497 00000 n 
-0000461533 00000 n 
-0000461569 00000 n 
-0000461605 00000 n 
-0000461641 00000 n 
-0000461677 00000 n 
-0000461713 00000 n 
+0000033340 00000 n 
+0000033588 00000 n 
+0000033796 00000 n 
+0000236324 00000 n 
+0000261458 00000 n 
+0000261659 00000 n 
+0000261878 00000 n 
+0000262097 00000 n 
+0000262402 00000 n 
+0000262610 00000 n 
+0000262818 00000 n 
+0000263015 00000 n 
+0000263225 00000 n 
+0000263402 00000 n 
+0000263579 00000 n 
+0000263827 00000 n 
+0000263941 00000 n 
+0000264149 00000 n 
+0000264326 00000 n 
+0000264553 00000 n 
+0000264748 00000 n 
+0000264975 00000 n 
+0000265152 00000 n 
+0000265379 00000 n 
+0000265556 00000 n 
+0000265783 00000 n 
+0000266017 00000 n 
+0000266234 00000 n 
+0000266461 00000 n 
+0000266638 00000 n 
+0000266865 00000 n 
+0000267065 00000 n 
+0000267292 00000 n 
+0000267469 00000 n 
+0000267664 00000 n 
+0000267836 00000 n 
+0000268077 00000 n 
+0000268293 00000 n 
+0000268465 00000 n 
+0000268681 00000 n 
+0000268858 00000 n 
+0000269106 00000 n 
+0000269280 00000 n 
+0000269454 00000 n 
+0000269629 00000 n 
+0000269825 00000 n 
+0000270005 00000 n 
+0000270224 00000 n 
+0000270397 00000 n 
+0000270595 00000 n 
+0000272653 00000 n 
+0000272907 00000 n 
+0000273106 00000 n 
+0000273305 00000 n 
+0000273659 00000 n 
+0000273871 00000 n 
+0000274062 00000 n 
+0000274271 00000 n 
+0000274470 00000 n 
+0000274690 00000 n 
+0000274878 00000 n 
+0000275057 00000 n 
+0000275252 00000 n 
+0000275524 00000 n 
+0000275710 00000 n 
+0000275920 00000 n 
+0000276111 00000 n 
+0000276418 00000 n 
+0000276526 00000 n 
+0000276822 00000 n 
+0000276898 00000 n 
+0000277020 00000 n 
+0000277154 00000 n 
+0000277325 00000 n 
+0000277441 00000 n 
+0000277607 00000 n 
+0000277736 00000 n 
+0000277885 00000 n 
+0000278029 00000 n 
+0000278163 00000 n 
+0000278297 00000 n 
+0000278429 00000 n 
+0000278565 00000 n 
+0000278725 00000 n 
+0000278872 00000 n 
+0000279007 00000 n 
+0000279142 00000 n 
+0000279313 00000 n 
+0000279439 00000 n 
+0000279577 00000 n 
+0000279700 00000 n 
+0000279838 00000 n 
+0000279986 00000 n 
+0000280143 00000 n 
+0000280287 00000 n 
+0000280432 00000 n 
+0000280575 00000 n 
+0000280711 00000 n 
+0000280874 00000 n 
+0000281030 00000 n 
+0000281196 00000 n 
+0000281322 00000 n 
+0000281454 00000 n 
+0000281588 00000 n 
+0000281722 00000 n 
+0000281859 00000 n 
+0000282012 00000 n 
+0000282138 00000 n 
+0000282280 00000 n 
+0000282423 00000 n 
+0000282548 00000 n 
+0000282692 00000 n 
+0000282822 00000 n 
+0000282947 00000 n 
+0000283097 00000 n 
+0000283231 00000 n 
+0000283388 00000 n 
+0000283532 00000 n 
+0000283667 00000 n 
+0000283800 00000 n 
+0000283937 00000 n 
+0000284075 00000 n 
+0000284225 00000 n 
+0000284364 00000 n 
+0000284506 00000 n 
+0000284638 00000 n 
+0000284795 00000 n 
+0000284975 00000 n 
+0000285097 00000 n 
+0000285213 00000 n 
+0000285368 00000 n 
+0000285488 00000 n 
+0000285687 00000 n 
+0000291041 00000 n 
+0000296876 00000 n 
+0000303679 00000 n 
+0000318698 00000 n 
+0000323942 00000 n 
+0000331385 00000 n 
+0000340103 00000 n 
+0000347264 00000 n 
+0000357115 00000 n 
+0000366034 00000 n 
+0000372563 00000 n 
+0000386741 00000 n 
+0000393334 00000 n 
+0000402393 00000 n 
+0000409042 00000 n 
+0000416787 00000 n 
+0000424469 00000 n 
+0000437633 00000 n 
+0000452520 00000 n 
+0000461475 00000 n 
+0000461727 00000 n 
+0000461762 00000 n 
+0000461797 00000 n 
+0000461832 00000 n 
+0000461867 00000 n 
+0000461902 00000 n 
+0000461937 00000 n 
+0000461972 00000 n 
+0000462007 00000 n 
+0000462042 00000 n 
+0000462078 00000 n 
+0000462114 00000 n 
+0000462150 00000 n 
+0000462186 00000 n 
+0000462222 00000 n 
+0000462258 00000 n 
+0000462294 00000 n 
+0000462330 00000 n 
+0000462366 00000 n 
+0000462402 00000 n 
 trailer
 <<
 /ID 
-[<b4abd490de98ac8a4a86943de70e3dc0><b4abd490de98ac8a4a86943de70e3dc0>]
+[<92bb98aa0c30e22c6526e3f2e8435467><92bb98aa0c30e22c6526e3f2e8435467>]
 % ReportLab generated PDF document -- digest (http://www.reportlab.com)
 
 /Info 88 0 R
@@ -7902,5 +7967,5 @@ trailer
 /Size 193
 >>
 startxref
-461749
+462438
 %%EOF

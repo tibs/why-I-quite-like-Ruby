@@ -30,9 +30,6 @@ What we shall cover
 * Python
 * Ruby
 
-.. * Maybe a final look ahead *(this may not happen)*
-
-
 Part 1: Python
 --------------
 
@@ -244,9 +241,7 @@ Matz in an email in 2006:
       * add methods found in Smalltalk.
       * add functionality found in Perl (in OO way).
 
-.. raw:: pdf
-
-   PageBreak
+.. page::
 
 ..
 
@@ -346,21 +341,6 @@ What do we mean by "Object Oriented"?
 
    "an a la carte menu" - `Jonathan Rees on the meaning of Object-Oriented`_ (2001)
 
-.. raw:: pdf
-
-   PageBreak
-
-Simula-67 was {1,3,7,9} and "many people take this as a definition of OO"
-
-He has Java as {1,2,3,7,8,9}, and Lisp as {3,4,5,7}
-
-By my (quick and maybe wrong) reckoning
-
-* Python is {3,4,5,7,8,9}
-* Ruby is {3,4,5,6,7,8,9}
-
-6 = *All you can do is send a message*
-
 Ruby still feels like a multi-paradigm language
 -----------------------------------------------
 
@@ -453,9 +433,7 @@ Methods ending with ``?`` should return a boolean, for instance
 
   [].empty?    # => true
 
-.. raw:: pdf
-
-   PageBreak
+.. page::
 
 Methods ending with ``!`` should do something permanent or potentially
 dangerous, and should generally be paired with an equivalent method that
@@ -514,9 +492,7 @@ The ``send`` method makes this explicit:
 
 ``obj.send(:thing)`` effectively calls ``obj.thing``.
 
-.. raw:: pdf
-
-   PageBreak
+.. page::
 
 You can use ``send`` to call private methods.
 
@@ -540,9 +516,7 @@ You can use ``send`` to call private methods.
    about whether ``public_send`` would be better, as it honours the
    ``private`` visibility.)
 
-.. raw:: pdf
-
-   PageBreak
+.. page::
 
 One can ask if an object understands a message:
 
@@ -551,9 +525,7 @@ One can ask if an object understands a message:
    s.responds_to?(:reset)  # => false, because it's private
    3.responds_to?(:times)  # => true
 
-.. raw:: pdf
-
-   PageBreak
+.. page::
 
 And catch messages as they "go past":
 
@@ -628,9 +600,7 @@ This is quite nice - open the ``String`` class and add a method:
    (this and the following section borrow from
    https://6ftdan.com/allyourdev/2015/01/20/refinements-over-monkey-patching/)
 
-.. raw:: pdf
-
-   PageBreak
+.. page::
 
 But what if we change an existing method? It looks very similar:
 
@@ -663,9 +633,7 @@ Refinements_ give more control.
        end
      end
 
-.. raw:: pdf
-
-   PageBreak
+.. page::
 
 .. code:: ruby
 
@@ -790,9 +758,7 @@ At the start of https://bugs.ruby-lang.org/issues/15799#note-29 Matz says:
     Lisp-1 like languages, ``f1 = function; f1()`` calls function (single
     namespace).
 
-.. raw:: pdf
-
-   PageBreak
+.. page::
 
 So in Python we expect to be able to do:
 
@@ -835,9 +801,7 @@ just "sits there". You need to use the ``()`` (call) operator to make something 
    callable()
    callable(1, 2, 3)
 
-.. raw:: pdf
-
-   PageBreak
+.. page::
 
 In Ruby:
 
@@ -909,9 +873,7 @@ There's a rather good book called `Effective Testing with RSpec 3`_
 .. _rspec: https://rspec.info/
 .. _`Effective Testing with RSpec 3`: https://pragprog.com/book/rspec3/effective-testing-with-rspec-3
 
-.. raw:: pdf
-
-   PageBreak
+.. page::
 
 Here's a simple example from the front page of the rspec_ website:
 
@@ -929,9 +891,7 @@ Here's a simple example from the front page of the rspec_ website:
      end
    end
 
-.. raw:: pdf
-
-   PageBreak
+.. page::
 
 and if you run that (and ``bowling`` has been implemented) you might see:
 
@@ -946,9 +906,7 @@ and if you run that (and ``bowling`` has been implemented) you might see:
     Finished in 0.00137 seconds (files took 0.13421 seconds to load)
     1 example, 0 failures
 
-.. raw:: pdf
-
-   PageBreak
+.. page::
 
 Here's another example, this time from page 68 of `Effective Testing with
 RSpec 3`_:

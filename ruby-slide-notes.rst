@@ -30,6 +30,7 @@ Part 1: Python
 ==============
 
 .. image:: images/python-logo.png
+   :width: 20 %
 
 .. class:: acknowledgement
 
@@ -295,6 +296,7 @@ Part 2: Ruby
 ============
 
 .. image:: images/ruby-kit/ruby.png
+   :width: 10 %
 
 .. raw:: pdf
 
@@ -518,9 +520,11 @@ He has Java as {1,2,3,7,8,9}, and Lisp as {3,4,5,7}
 Simula-67 was {1,3,7,9} and he says "many people take this as a definition of OO".
 
 By my (quick and maybe wrong) reckoning,
-Python is {3,4,5,7,8,9}
-while Ruby is {3,4,5,6,7,8,9} - readers may be inerested in working this out
-for themselves.
+
+* Python is {3,4,5,7,8,9}, while
+* Ruby is {3,4,5,**6**,7,8,9}
+
+... readers may be inerested in working this out for themselves.
 
 Incidentally, while never formally part of the definition of OO, many people
 (particularly in the early years) would also include Garbage Collection.
