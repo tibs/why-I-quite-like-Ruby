@@ -506,11 +506,11 @@ You can use ``send`` to call private methods.
      end
    end
 
-  .. code:: ruby
+.. code:: ruby
 
-     s = Something.new
-     s.reset            # Ruby says you're trying to call a private method
-     s.send(:reset)     # Ruby calls the method for you
+   s = Something.new
+   s.reset            # Ruby says you're trying to call a private method
+   s.send(:reset)     # Ruby calls the method for you
 
 .. (Although `The Ruby Style Guide`_ does suggest you should think carefully
    about whether ``public_send`` would be better, as it honours the
@@ -670,8 +670,8 @@ methods.
 It's not really possible to have a nice syntax for this in Python, because of
 significant indentation. But that's OK, we don't have to have everything!
 
-Blocks 1: Who needs a ``for`` loop?
------------------------------------
+Who needs a ``for`` loop?
+-------------------------
 
 .. code:: ruby
 
