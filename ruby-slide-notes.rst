@@ -60,8 +60,8 @@ Command Language - a relatively sophisticated Basic descendant, with close
 integration with the operating system).
 
 As it happened, we didn't choose any of my found languages (we ended up with a
-simplified Pascal clone from Byte magazine), and I think at the time we would
-have thought Python was too much work to embed.
+simplified Pascal clone from Byte magazine), and I think at the time my
+colleagues thought Python was too much work to embed.
 
 (For reference, Java 1.0 is 1995, as is Ruby 0.95. Perl 1.0 was released
 in 1987)
@@ -81,7 +81,7 @@ When writing pseudocode for myself, of course, I didn't see any need for
 ``begin`` and ``end`` (or ``${`` and ``}``, or, most horrible of all ``{}``
 and ``}``), but naturally just indented the code and left it at that.
 
-So when I say Python, that aspect of it just seemed natural.
+So when I saw Python, that aspect of it just seemed natural.
 
 Also the decision, in general, to be relatively unadventurous in syntax made
 it easy to read and easy to learn (remember Python was also a somewhat smaller
@@ -92,10 +92,10 @@ As someone coined, Python is "runnable pseudocode".
 (and I like the colons)
 
 Of course, when I read further I discovered that Guido van Rossum had
-deliberately decided to emphasise *readability* as being valuable, even if
-that added a little more burden when writing code. The reasoning being that
-programs are communication, to other human beings as much as computers, and so
-we should do as much to make that communcation easy and pleasant as we can.
+deliberately decided to emphasise *readability*, even if that added a little
+more burden when writing code. The reasoning being that programs are
+communication, to other human beings as much as computers, and so we should do
+as much to make that communcation easy and pleasant as we can.
 
 Being readable may also be important to the original programmer when they come
 back to the code six months later.
@@ -198,25 +198,25 @@ Also:
 
 * https://github.com/DRMacIver/schroedinteger
 
-   schroedinteger, from David MacIver (of course):
-   "A schroedinteger behaves in as many ways as possible as if it were a real
-   integer. However it's very indecisive and hasn't necessarily decided which
-   integer it is.
+  schroedinteger, from David MacIver (of course):
+  "A schroedinteger behaves in as many ways as possible as if it were a real
+  integer. However it's very indecisive and hasn't necessarily decided which
+  integer it is.
 
-   "You create it in a superposition of values. After that, every time you ask
-   a question about its value, it determines a range of possible answers,
-   picks one at random, and updates its knowledge about the range of values it
-   could possibly have.""
+  "You create it in a superposition of values. After that, every time you ask
+  a question about its value, it determines a range of possible answers,
+  picks one at random, and updates its knowledge about the range of values it
+  could possibly have.""
 
 * https://pyos.github.io/dg/
 
-   dg: an alternative syntax for Python 3
+  dg: an alternative syntax for Python 3
 
-   "Haskell's syntax but none of its type system"
+  "Haskell's syntax but none of its type system"
 
 * https://docs.hylang.org/
 
-  not actually a joke, but a lisp syntax for Python, which can interoperate
+  Not actually a joke, but a lisp syntax for Python, which can interoperate
   with "normal" Python
 
 Docstrings - these came later
@@ -307,7 +307,7 @@ Part 2: Ruby
    The Ruby Logo is Copyright (c) 2006, Yukihiro Matsumoto
 
 Not everything I say may be exactly true, either because I have a
-misunderstanding about how Ruby works, or have misremembered soemthing, or
+misunderstanding about how Ruby works, or have misremembered something, or
 because I'm oversimplifying for the purpose of this talk.
 
 Why did I learn Ruby?
@@ -375,14 +375,15 @@ Why do I say I only "quite" like Ruby?
 --------------------------------------
 
 Because I don't really like some of the stylistic choices - it errs a little
-too much on the magic side for me (this is *very* much a matter of choice!).
+too much on the magic side for me (this is *very* much a matter of personal
+preference!).
 
-But there's a lot of stuff I *do* like, and more importantly, to me, I love
-the fact that Ruby takes some very different approaches than Python, in some
-cases producing what feels like much the same result (for instance, how values
-are defined) and in some cases shows paths that Python could not take, but
-that are still valuable approaches to explore (blocks, optional ``()`` on
-calling methods, and so on).
+But there's a lot of stuff I *do* like, and more importantly, I love the fact
+that Ruby takes some very different approaches than Python, in some cases
+producing what feels like much the same result (for instance, how values are
+defined) and in some cases shows paths that Python could not take, but that
+are still valuable approaches to explore (blocks, optional ``()`` on calling
+methods, and so on).
 
 Note: this is meant to be a talk about the things I like in both languages, so
 don't expect me to look for things that I'm not keen on or think could be done
@@ -401,8 +402,8 @@ is easy/fun to write, as well as easy to read.
 Synonyms and extra methods
 --------------------------
 Ruby is much more likely to add synonyms for things - much less interested in
-"only one way". Instead, wants to give the predictable way (and thus easier
-to write). For instance:
+"only one way". Instead, it wants to increase the chance of the programmer
+being able to guess/remember what will work. For instance:
 
 .. code:: ruby
 
@@ -515,14 +516,14 @@ What do we mean by "Object Oriented"?
 
    "an a la carte menu" - `Jonathan Rees on the meaning of Object-Oriented`_ (2001)
 
-He has Java as {1,2,3,7,8,9}, and Lisp as {3,4,5,7}
+He has Java as {1, 2, 3, 7, 8, 9}, and Lisp as {3, 4, 5, 7}
 
-Simula-67 was {1,3,7,9} and he says "many people take this as a definition of OO".
+Simula-67 was {1, 3, 7, 9} and he says "many people take this as a definition of OO".
 
 By my (quick and maybe wrong) reckoning,
 
-* Python is {3,4,5,7,8,9}, while
-* Ruby is {3,4,5,**6**,7,8,9}
+* Python is {3, 4, 5, 7, 8, 9}, while
+* Ruby is {3, 4, 5, **6**, 7, 8, 9}
 
 ... readers may be inerested in working this out for themselves.
 
@@ -569,9 +570,9 @@ almost all cases.
 
 (`The Ruby Style Guide`_ is rather wonderful - I recommend it.)
 
-Use of ``@`` to indicate equivalent of ``self.`` for values *inside* methods
-of the same class. But seems to be only when necessary, otherwise just use the
-accessor methods.
+Ruby uses ``@`` to indicate the equivalent of ``self.`` for values *inside*
+methods of the same class. But in many cases, one just uses the accessor
+methods.
 
 Object values
 -------------
@@ -628,6 +629,9 @@ Writable values
 
 To do this in Python, we'd simply set the values as ``self.width`` and
 ``self.height`` in our ``__init__`` method.
+
+*Technically* that's a readable and writable value. Just writable would be
+``attr_writer``
 
 Doing it "by hand"
 ------------------
@@ -731,13 +735,13 @@ concept of strings), and so that didn't fit the idea of simplicity that
 (especially early) Python was striving for.
 
 They're very much a part of lisps, though, so it was probably inevitable that
-Ruby would have such a useful thing.
+Ruby would have them.
 
 On the whole, I like having symbols available. In Python we have to use a
-string in many places instead of a symbol, and then worry about guaranteeing
-that it is the same string. Also, Python doesn't guarantee to intern all
-strings (although nowadays I believe most constant strings are likely to be
-interned in CPython).
+string in many places instead of a symbol, and then worry that it is always
+the same string. Also, Python doesn't guarantee to intern all strings
+(although nowadays I believe most constant strings are likely to be interned
+in CPython).
 
 Messages from smalltalk
 -----------------------
@@ -773,7 +777,7 @@ For instance, given:
      end
    end
 
-it's not possible to do:
+It's not possible to do:
 
   .. code:: ruby
 
@@ -807,9 +811,9 @@ with them, using ``method_missing`` method:
    class Example
      def method_missing(name, *args, &block)
        if name == :random
-         puts "4"
+         "4"
        else
-         puts "#{name}"
+         "#{name}"
        end
    end
 
@@ -822,17 +826,10 @@ Given the above:
 
 .. code:: ruby
 
-    irb(main):028:0> e = Example.new
-    => #<Example:0x00007f807c975dc0>
-    irb(main):029:0> e.random
-    4
-    => nil
-    irb(main):030:0> e.aha
-    aha
-    => nil
-    irb(main**:031:0> e.whatever
-    whatever
-    => nil
+    e = Example.new
+    e.random    # => "4"
+    e.aha       # => "aha"
+    e.whatever  # => "whatever"
 
 **Note** I've been naughty with this class, because I didn't define a
 ``respond_to_missing?`` method so that a caller could ask what messages the
@@ -857,12 +854,12 @@ alternatives.
 **Note** I believe it *is* important to use a programming languages own terms
 for its concepts. In this case it shows up relative subtelties in the way the
 language is mean to work and be used. I've always had a particulare dislike
-for the sort of C or C++ programmer who insists on discussing Python method
-calling in C or C++ terms only, zeroing in on pointer management, and refusing
-to use Python's own terms, often citing "but that's what the low level
-implementation does" (perhaps true in CPython, perhaps not in other variants).
-There is normally a (good) reason for the terminology a programming language
-uses to talk about itself.
+for the sort of argument I see some C or C++ programmers making, where they
+insist on discussing Python method calling in C or C++ terms only, zeroing in
+on pointer management, and refusing to use Python's own terms, often citing
+"but that's what the low level implementation does" (perhaps true in CPython,
+perhaps not in other variants). There is normally a (good) reason for the
+terminology a programming language uses to talk about itself.
 
 
 Ruby and monkey patching
@@ -879,21 +876,18 @@ technology are different.
 For a start, since Ruby thinks about sending messages to objects, it seems
 quite reasonable to intercept a message, either one that would normally not
 correspond to a method, or one that would be specified by the class or one of
-its super classes (or interfaces - I haven't mentioned interfaces before, but
-they're another thing that Ruby has - DO I NEED TO CHECK WHAT I MEAN HERE /
-EXPLAIN A BIT MORE?).
+its super classes (or interfaces).
 
-But secondly, the *mechanism* for monkey patching is not the same (DOUBLE
-CHECK THIS - I'M WRITING FROM MEMORY). In Ruby changing the behaviour of an
-object at run-time also inserts a "shim" layer around that object - the monkey
-patching is kept much more hygenic (and introspectable?) than in Python.
+But secondly, the *mechanism* for monkey patching is not the same (I'm
+deliberately hand-waving here, as I haven't gone back and checked the details
+of this).
+
+In Ruby changing the behaviour of an object at run-time also inserts a "shim"
+layer around that object - the monkey patching is kept much more hygenic (and
+introspectable?) than in Python.
 
 In some respects, Python can only monkey patch by doing very low level
-manipulations, wherea Ruby has proper support for it.
-
-That doesn't mean one should go wild with this - it can still be a practical
-problem - but Ruby has definitely thought more about what should be possible
-to do cleanly here.
+manipulations. Ruby has better support, as we shall see.
 
 Caveat
 ------
@@ -913,7 +907,8 @@ Old-style monkey patching
 
 .. class:: acknowledgement
 
-   (this and the following section borrow from
+   (This and the following section borrow from
+
    https://6ftdan.com/allyourdev/2015/01/20/refinements-over-monkey-patching/)
 
 Basic monkey patching is very simple to do, quite nice to write, but rather
@@ -1039,7 +1034,7 @@ Why is it that way round (``..`` being inclusive and ``...`` being exclusive)?
 Presumably because these operators (which also have more complicated / subtler
 uses than we've shown) are taken from Perl.
 
-It may or may not be relevant that ``1 .. 3`` in Pascal is inclusive.
+It may or may not be relevant that ``1..3`` in Pascal is inclusive.
 
 Nice example from `The Ruby Style Guide`_
 -----------------------------------------
@@ -1155,7 +1150,7 @@ Ruby knows that a method is not a value, it is free to treat it differently.
 And that means, in partcular, that the ``()`` in a method call are optional.
 
 (There are stylistic guidelines, of course - specifically, see `The Ruby
-Style Guide`_ sectin `DSL Method Calls`_)
+Style Guide`_ section `DSL Method Calls`_)
 
 So instead of:
 
@@ -1169,7 +1164,7 @@ it's quite possible (and often colloquial) to do:
 
    method 1 2 3
 
-It is worth saying that this can often be *much more readable.*
+I feel that this is often much more readable.
 
 Which leads to DSLs
 -------------------
@@ -1210,8 +1205,8 @@ DSL example 2: rspec
 
 rspec_ is (effectively) a Ruby DSL, providing Behaviour Driven Development.
 
-It gets close to being a Cucumber language in pure Ruby, and also provides
-Hamcrest-like abilities as well.
+It gets close to being a Gherkin_ BDD_ (Behaviour Driven Development) language
+in pure Ruby, and also provides Hamcrest_-like abilities as well.
 
 There's a rather good book called `Effective Testing with RSpec 3`_
 
@@ -1279,7 +1274,7 @@ Notes:
    much more readable.
 3. ``post`` does what it sounds like it does
 4. ``last_response`` is a method that returns the last response
-   receive in the session.
+   received in the session.
 
 DSL Example 3: `Sonic Pi`_
 --------------------------
@@ -1307,7 +1302,7 @@ The community
 
 As I said earlier, not unique to Python.
 
-I've only attended one Ruby conference so far, Euruko 2021, which
+I've only attended one Ruby conference so far, `Euruko 2021`_, which
 unfortunately had to be virtual. But all the evidence I've seen leads me to
 think that the Ruby community is just as friendly and helpful (although
 possibly slightly smaller outside Japan) as the Python community.
@@ -1366,6 +1361,16 @@ so what language should I think about next?
 
 Well, for various reasons (and despite some residual prejudice I have left
 over from the 1980s), it looks as if the obvious answer is Common Lisp.
+
+.. code:: lisp
+
+    CL-USER> (defun hello ()
+               (format t "Hello, World!~%"))
+    HELLO
+    CL-USER> (hello)
+    Hello, World!
+    NIL
+    CL-USER>
 
 Addenda: More on Lisp-1 versus Lisp-2
 =====================================
@@ -1464,6 +1469,11 @@ Some other links
 .. _`Sonic Pi`: https://sonic-pi.net/
 
 .. _Lobster: https://strlen.com/lobster/
+
+.. _Gherkin: https://cucumber.io/docs/gherkin/reference/
+.. _BDD: https://en.wikipedia.org/wiki/Behavior-driven_development
+.. _Hamcrest: http://hamcrest.org/
+.. _`Euruko 2021`: https://euruko2021.org/
 
 .. _`Creative Commons Attribution-ShareAlike 4.0 International License`: http://creativecommons.org/licenses/by-sa/4.0/
 
